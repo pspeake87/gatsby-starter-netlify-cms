@@ -1,41 +1,54 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import logo from '../layouts/img/logo.svg'
+import { Navbar, Nav } from 'react-bootstrap';
 
-const Navbar = () => (
-  <nav className="navbar is-transparent">
-    <div className="container">
-      <div className="navbar-brand">
-        <Link to="/" className="navbar-item">
-          <figure className="image">
-            <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-          </figure>
-        </Link>
-      </div>
-      <div className="navbar-start">
-        <Link className="navbar-item" to="/about">
-          About
-        </Link>
-        <Link className="navbar-item" to="/products">
-          Products
-        </Link>
-      </div>
-      <div className="navbar-end">
-        <a
-          className="navbar-item"
-          href="https://github.com/AustinGreen/gatsby-netlify-cms-boilerplate"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
-      </div>
-    </div>
-  </nav>
-)
+export default class MainNavbar extends React.Component {
+  render() {
+    return (
+      <header className="site-navigation navigation" id="masthead">
+        <Navbar>
+          <Navbar.Header>
+            <Navbar.Toggle />
+            <Navbar.Brand>
+              <a href="/">
+                <img src={logo} alt="speake-software" className="img-responsive" />
+              </a>
+            </Navbar.Brand>
+          </Navbar.Header>
 
-export default Navbar
+          <Navbar.Collapse>
+            <Nav pullRight>
+              <li>
+                <Link to="/">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="#section-service">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link to="#section-feature">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link to="#section-client">
+                  Clients
+                </Link>
+              </li>
+              <li>
+                <Link to="#section-contact">
+                  Contact
+                </Link>
+              </li>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </header>
+    );
+  }
+}

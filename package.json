@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
-  "version": "1.1.1",
-  "author": "Austin Green",
+  "name": "speake-software",
+  "description": "Marketing site for Speake Software & Consulting",
+  "version": "1.0.0",
+  "author": "Philip Speake",
   "dependencies": {
+    "bootstrap": "3",
     "bulma": "^0.6.0",
     "gatsby": "^1.9.213",
     "gatsby-link": "^1.6.37",
@@ -19,6 +20,7 @@
     "lodash-webpack-plugin": "^0.11.4",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
