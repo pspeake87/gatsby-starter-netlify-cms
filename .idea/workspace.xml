@@ -2,55 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d844a88e-9aeb-45d6-b153-4f5a4a288c00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/fontawesome-webfontd41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/fontawesome-webfonte0a5.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/fontawesome-webfonte0a5.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/fontawesome-webfonte0a5.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/fontawesome-webfonte0a5.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/icofont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/icofont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/icofont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/Alvin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/Boomr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/Leroy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/Mood.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/Ranchr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/people-computers.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/programming.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/css/icofont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/fontawesome-webfonte0a5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/fonts/icofont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/Asset-2.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/Asset-3.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/Asset-4.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/Asset-5.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/Asset-8.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/bg-main.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/champion.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/graphql.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/javascript.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/nodejs.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/rails.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/react.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/layouts/img/logos/reactnative.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/github-icon.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gatsby-config.js" afterPath="$PROJECT_DIR$/gatsby-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Navbar.js" afterPath="$PROJECT_DIR$/src/components/Navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/all.sass" afterPath="$PROJECT_DIR$/src/layouts/all.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/layouts/index.js" afterPath="$PROJECT_DIR$/src/layouts/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.js" afterPath="$PROJECT_DIR$/src/pages/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/about-page.js" afterPath="$PROJECT_DIR$/src/templates/about-page.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Testimonials.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Testimonials.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -161,50 +105,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4875">
-              <caret line="325" column="26" lean-forward="true" selection-start-line="325" selection-start-column="26" selection-end-line="325" selection-end-column="26" />
+            <state relative-caret-position="181">
+              <caret line="308" column="30" lean-forward="true" selection-start-line="308" selection-start-column="30" selection-end-line="308" selection-end-column="30" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <marker date="1525239489527" expanded="true" signature="16519:16894" ph="query...{&#10;    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }&#10;  }" />
-                <marker date="1525239489527" expanded="true" signature="16525:16535" ph="IndexQuery...IndexQuery" />
-                <marker date="1525239489527" expanded="true" signature="16536:16894" ph="{...}" />
-                <marker date="1525239489527" expanded="true" signature="16542:16559" ph="allMarkdownRemark...allMarkdownRemark" />
-                <marker date="1525239489527" expanded="true" signature="16542:16890" ph="allMarkdownRemark...{&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }" />
-                <marker date="1525239489527" expanded="true" signature="16559:16612" ph="(...)" />
-                <marker date="1525239489527" expanded="true" signature="16560:16564" ph="sort...sort" />
-                <marker date="1525239489527" expanded="true" signature="16560:16611" ph="sort...{ order: DESC, fields: [frontmatter___date] }" />
-                <marker date="1525239489527" expanded="true" signature="16566:16611" ph="{...}" />
-                <marker date="1525239489527" expanded="true" signature="16568:16573" ph="order...order" />
-                <marker date="1525239489527" expanded="true" signature="16581:16587" ph="fields...fields" />
-                <marker date="1525239489527" expanded="true" signature="16581:16609" ph="fields...[frontmatter___date]" />
-                <marker date="1525239489527" expanded="true" signature="16589:16609" ph="[...]" />
-                <marker date="1525239489527" expanded="true" signature="16613:16890" ph="{...}" />
-                <marker date="1525239489527" expanded="true" signature="16621:16626" ph="edges...edges" />
-                <marker date="1525239489527" expanded="true" signature="16621:16884" ph="edges...{&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }" />
-                <marker date="1525239489527" expanded="true" signature="16627:16884" ph="{...}" />
-                <marker date="1525239489527" expanded="true" signature="16637:16641" ph="node...node" />
-                <marker date="1525239489527" expanded="true" signature="16637:16876" ph="node...{&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }" />
-                <marker date="1525239489527" expanded="true" signature="16642:16876" ph="{...}" />
-                <marker date="1525239489527" expanded="true" signature="16654:16661" ph="excerpt...excerpt" />
-                <marker date="1525239489527" expanded="true" signature="16661:16679" ph="(...)" />
-                <marker date="1525239489527" expanded="true" signature="16662:16673" ph="pruneLength...pruneLength" />
-                <marker date="1525239489527" expanded="true" signature="16690:16692" ph="id...id" />
-                <marker date="1525239489527" expanded="true" signature="16703:16709" ph="fields...fields" />
-                <marker date="1525239489527" expanded="true" signature="16703:16740" ph="fields...{&#10;            slug&#10;          }" />
-                <marker date="1525239489527" expanded="true" signature="16710:16740" ph="{...}" />
-                <marker date="1525239489527" expanded="true" signature="16724:16728" ph="slug...slug" />
-                <marker date="1525239489527" expanded="true" signature="16751:16762" ph="frontmatter...frontmatter" />
-                <marker date="1525239489527" expanded="true" signature="16751:16866" ph="frontmatter...{&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }" />
-                <marker date="1525239489527" expanded="true" signature="16763:16866" ph="{...}" />
-                <marker date="1525239489527" expanded="true" signature="16777:16782" ph="title...title" />
-                <marker date="1525239489527" expanded="true" signature="16795:16806" ph="templateKey...templateKey" />
-                <marker date="1525239489527" expanded="true" signature="16819:16823" ph="date...date" />
-                <marker date="1525239489527" expanded="true" signature="16823:16854" ph="(...)" />
-                <marker date="1525239489527" expanded="true" signature="16824:16836" ph="formatString...formatString" />
+                <marker date="1525278754499" expanded="true" signature="16531:16906" ph="query...{&#10;    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }&#10;  }" />
+                <marker date="1525278754499" expanded="true" signature="16537:16547" ph="IndexQuery...IndexQuery" />
+                <marker date="1525278754499" expanded="true" signature="16548:16906" ph="{...}" />
+                <marker date="1525278754499" expanded="true" signature="16554:16571" ph="allMarkdownRemark...allMarkdownRemark" />
+                <marker date="1525278754499" expanded="true" signature="16554:16902" ph="allMarkdownRemark...{&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }" />
+                <marker date="1525278754499" expanded="true" signature="16571:16624" ph="(...)" />
+                <marker date="1525278754499" expanded="true" signature="16572:16576" ph="sort...sort" />
+                <marker date="1525278754499" expanded="true" signature="16572:16623" ph="sort...{ order: DESC, fields: [frontmatter___date] }" />
+                <marker date="1525278754499" expanded="true" signature="16578:16623" ph="{...}" />
+                <marker date="1525278754499" expanded="true" signature="16580:16585" ph="order...order" />
+                <marker date="1525278754499" expanded="true" signature="16593:16599" ph="fields...fields" />
+                <marker date="1525278754499" expanded="true" signature="16593:16621" ph="fields...[frontmatter___date]" />
+                <marker date="1525278754499" expanded="true" signature="16601:16621" ph="[...]" />
+                <marker date="1525278754499" expanded="true" signature="16625:16902" ph="{...}" />
+                <marker date="1525278754499" expanded="true" signature="16633:16638" ph="edges...edges" />
+                <marker date="1525278754499" expanded="true" signature="16633:16896" ph="edges...{&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }" />
+                <marker date="1525278754499" expanded="true" signature="16639:16896" ph="{...}" />
+                <marker date="1525278754499" expanded="true" signature="16649:16653" ph="node...node" />
+                <marker date="1525278754499" expanded="true" signature="16649:16888" ph="node...{&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }" />
+                <marker date="1525278754499" expanded="true" signature="16654:16888" ph="{...}" />
+                <marker date="1525278754499" expanded="true" signature="16666:16673" ph="excerpt...excerpt" />
+                <marker date="1525278754499" expanded="true" signature="16673:16691" ph="(...)" />
+                <marker date="1525278754499" expanded="true" signature="16674:16685" ph="pruneLength...pruneLength" />
+                <marker date="1525278754499" expanded="true" signature="16702:16704" ph="id...id" />
+                <marker date="1525278754499" expanded="true" signature="16715:16721" ph="fields...fields" />
+                <marker date="1525278754499" expanded="true" signature="16715:16752" ph="fields...{&#10;            slug&#10;          }" />
+                <marker date="1525278754499" expanded="true" signature="16722:16752" ph="{...}" />
+                <marker date="1525278754499" expanded="true" signature="16736:16740" ph="slug...slug" />
+                <marker date="1525278754499" expanded="true" signature="16763:16774" ph="frontmatter...frontmatter" />
+                <marker date="1525278754499" expanded="true" signature="16763:16878" ph="frontmatter...{&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }" />
+                <marker date="1525278754499" expanded="true" signature="16775:16878" ph="{...}" />
+                <marker date="1525278754499" expanded="true" signature="16789:16794" ph="title...title" />
+                <marker date="1525278754499" expanded="true" signature="16807:16818" ph="templateKey...templateKey" />
+                <marker date="1525278754499" expanded="true" signature="16831:16835" ph="date...date" />
+                <marker date="1525278754499" expanded="true" signature="16835:16866" ph="(...)" />
+                <marker date="1525278754499" expanded="true" signature="16836:16848" ph="formatString...formatString" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -245,6 +199,7 @@
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/components/Navbar.js" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -340,17 +295,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525209088033</updated>
-      <workItem from="1525209090386" duration="13174000" />
+      <workItem from="1525209090386" duration="13404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13174000" />
+    <option name="totallyTimeSpent" value="13404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1611" height="950" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18616351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18616351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="GraphQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -442,14 +398,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -891,47 +839,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4875">
-          <caret line="325" column="26" lean-forward="true" selection-start-line="325" selection-start-column="26" selection-end-line="325" selection-end-column="26" />
+        <state relative-caret-position="181">
+          <caret line="308" column="30" lean-forward="true" selection-start-line="308" selection-start-column="30" selection-end-line="308" selection-end-column="30" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <marker date="1525239489527" expanded="true" signature="16519:16894" ph="query...{&#10;    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }&#10;  }" />
-            <marker date="1525239489527" expanded="true" signature="16525:16535" ph="IndexQuery...IndexQuery" />
-            <marker date="1525239489527" expanded="true" signature="16536:16894" ph="{...}" />
-            <marker date="1525239489527" expanded="true" signature="16542:16559" ph="allMarkdownRemark...allMarkdownRemark" />
-            <marker date="1525239489527" expanded="true" signature="16542:16890" ph="allMarkdownRemark...{&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }" />
-            <marker date="1525239489527" expanded="true" signature="16559:16612" ph="(...)" />
-            <marker date="1525239489527" expanded="true" signature="16560:16564" ph="sort...sort" />
-            <marker date="1525239489527" expanded="true" signature="16560:16611" ph="sort...{ order: DESC, fields: [frontmatter___date] }" />
-            <marker date="1525239489527" expanded="true" signature="16566:16611" ph="{...}" />
-            <marker date="1525239489527" expanded="true" signature="16568:16573" ph="order...order" />
-            <marker date="1525239489527" expanded="true" signature="16581:16587" ph="fields...fields" />
-            <marker date="1525239489527" expanded="true" signature="16581:16609" ph="fields...[frontmatter___date]" />
-            <marker date="1525239489527" expanded="true" signature="16589:16609" ph="[...]" />
-            <marker date="1525239489527" expanded="true" signature="16613:16890" ph="{...}" />
-            <marker date="1525239489527" expanded="true" signature="16621:16626" ph="edges...edges" />
-            <marker date="1525239489527" expanded="true" signature="16621:16884" ph="edges...{&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }" />
-            <marker date="1525239489527" expanded="true" signature="16627:16884" ph="{...}" />
-            <marker date="1525239489527" expanded="true" signature="16637:16641" ph="node...node" />
-            <marker date="1525239489527" expanded="true" signature="16637:16876" ph="node...{&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }" />
-            <marker date="1525239489527" expanded="true" signature="16642:16876" ph="{...}" />
-            <marker date="1525239489527" expanded="true" signature="16654:16661" ph="excerpt...excerpt" />
-            <marker date="1525239489527" expanded="true" signature="16661:16679" ph="(...)" />
-            <marker date="1525239489527" expanded="true" signature="16662:16673" ph="pruneLength...pruneLength" />
-            <marker date="1525239489527" expanded="true" signature="16690:16692" ph="id...id" />
-            <marker date="1525239489527" expanded="true" signature="16703:16709" ph="fields...fields" />
-            <marker date="1525239489527" expanded="true" signature="16703:16740" ph="fields...{&#10;            slug&#10;          }" />
-            <marker date="1525239489527" expanded="true" signature="16710:16740" ph="{...}" />
-            <marker date="1525239489527" expanded="true" signature="16724:16728" ph="slug...slug" />
-            <marker date="1525239489527" expanded="true" signature="16751:16762" ph="frontmatter...frontmatter" />
-            <marker date="1525239489527" expanded="true" signature="16751:16866" ph="frontmatter...{&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }" />
-            <marker date="1525239489527" expanded="true" signature="16763:16866" ph="{...}" />
-            <marker date="1525239489527" expanded="true" signature="16777:16782" ph="title...title" />
-            <marker date="1525239489527" expanded="true" signature="16795:16806" ph="templateKey...templateKey" />
-            <marker date="1525239489527" expanded="true" signature="16819:16823" ph="date...date" />
-            <marker date="1525239489527" expanded="true" signature="16823:16854" ph="(...)" />
-            <marker date="1525239489527" expanded="true" signature="16824:16836" ph="formatString...formatString" />
+            <marker date="1525278754499" expanded="true" signature="16531:16906" ph="query...{&#10;    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }&#10;  }" />
+            <marker date="1525278754499" expanded="true" signature="16537:16547" ph="IndexQuery...IndexQuery" />
+            <marker date="1525278754499" expanded="true" signature="16548:16906" ph="{...}" />
+            <marker date="1525278754499" expanded="true" signature="16554:16571" ph="allMarkdownRemark...allMarkdownRemark" />
+            <marker date="1525278754499" expanded="true" signature="16554:16902" ph="allMarkdownRemark...{&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }" />
+            <marker date="1525278754499" expanded="true" signature="16571:16624" ph="(...)" />
+            <marker date="1525278754499" expanded="true" signature="16572:16576" ph="sort...sort" />
+            <marker date="1525278754499" expanded="true" signature="16572:16623" ph="sort...{ order: DESC, fields: [frontmatter___date] }" />
+            <marker date="1525278754499" expanded="true" signature="16578:16623" ph="{...}" />
+            <marker date="1525278754499" expanded="true" signature="16580:16585" ph="order...order" />
+            <marker date="1525278754499" expanded="true" signature="16593:16599" ph="fields...fields" />
+            <marker date="1525278754499" expanded="true" signature="16593:16621" ph="fields...[frontmatter___date]" />
+            <marker date="1525278754499" expanded="true" signature="16601:16621" ph="[...]" />
+            <marker date="1525278754499" expanded="true" signature="16625:16902" ph="{...}" />
+            <marker date="1525278754499" expanded="true" signature="16633:16638" ph="edges...edges" />
+            <marker date="1525278754499" expanded="true" signature="16633:16896" ph="edges...{&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }" />
+            <marker date="1525278754499" expanded="true" signature="16639:16896" ph="{...}" />
+            <marker date="1525278754499" expanded="true" signature="16649:16653" ph="node...node" />
+            <marker date="1525278754499" expanded="true" signature="16649:16888" ph="node...{&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }" />
+            <marker date="1525278754499" expanded="true" signature="16654:16888" ph="{...}" />
+            <marker date="1525278754499" expanded="true" signature="16666:16673" ph="excerpt...excerpt" />
+            <marker date="1525278754499" expanded="true" signature="16673:16691" ph="(...)" />
+            <marker date="1525278754499" expanded="true" signature="16674:16685" ph="pruneLength...pruneLength" />
+            <marker date="1525278754499" expanded="true" signature="16702:16704" ph="id...id" />
+            <marker date="1525278754499" expanded="true" signature="16715:16721" ph="fields...fields" />
+            <marker date="1525278754499" expanded="true" signature="16715:16752" ph="fields...{&#10;            slug&#10;          }" />
+            <marker date="1525278754499" expanded="true" signature="16722:16752" ph="{...}" />
+            <marker date="1525278754499" expanded="true" signature="16736:16740" ph="slug...slug" />
+            <marker date="1525278754499" expanded="true" signature="16763:16774" ph="frontmatter...frontmatter" />
+            <marker date="1525278754499" expanded="true" signature="16763:16878" ph="frontmatter...{&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }" />
+            <marker date="1525278754499" expanded="true" signature="16775:16878" ph="{...}" />
+            <marker date="1525278754499" expanded="true" signature="16789:16794" ph="title...title" />
+            <marker date="1525278754499" expanded="true" signature="16807:16818" ph="templateKey...templateKey" />
+            <marker date="1525278754499" expanded="true" signature="16831:16835" ph="date...date" />
+            <marker date="1525278754499" expanded="true" signature="16835:16866" ph="(...)" />
+            <marker date="1525278754499" expanded="true" signature="16836:16848" ph="formatString...formatString" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
