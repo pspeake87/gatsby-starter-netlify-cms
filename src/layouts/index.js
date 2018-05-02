@@ -10,9 +10,9 @@ import './all.sass'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <title>Speake Software & Consulting | Custom Software Development</title>
-      <meta name="description" content="We are a custom software development company from Dixon, California that designs and develops web and mobile apps for a variety of clients. From large complex apps to small static websites, we help non-technical people build and maintain cloud based software." />
-      <meta name="keywords" content="software, custom, web, mobile, apps" />
+      <title>Speake Software | Custom Software Development</title>
+      <meta name="description" content="We are a custom software development company from Dixon, California that designs and develops web and mobile apps for a variety of clients." />
+      <meta name="keywords" content="software, custom, web, mobile, apps, design, website, development, react, node, rails, ruby, hosting, cheap, affordable, quality, reliable, innovative, native, business, corporate, startup, cto" />
       <link rel="shortcut icon" href={favicon} />
     </Helmet>
     <section className="hidden-sm hidden-xs" id="header-top-bar">
