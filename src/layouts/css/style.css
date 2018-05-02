@@ -815,9 +815,8 @@ li {
 .banner-about {
     background: #57c9f3;
     padding: 40px 30px;
-    border-radius: 5px 5px 0px 0px;
-    color: #eee;
-    font-size: 14px;
+    color: #fff;
+    font-size: 16px;
 }
 
 .banner-about h4 {
@@ -835,7 +834,7 @@ li {
     bottom: 0px;
     width: 40px;
     height: 2px;
-    background: #F77B6F;
+    background: #68ece6;
 }
 
 
@@ -896,7 +895,7 @@ li {
 
 .service-content-block p {
     color: #747474;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 
@@ -1158,7 +1157,7 @@ li {
 }
 
 .blog-content ul li {
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 0px;
     padding-left: 0px;
 }
@@ -1834,7 +1833,7 @@ li {
 }
 
 .simple-counter p {
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 

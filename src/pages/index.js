@@ -54,7 +54,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className='col-md-4 col-sm-4 banner-about'>
                 <h4>Custom Websites</h4>
-                <p>We can custom tailor a website that fits your exact needs and remove all the clutter that makes a CMS app like Wordpress exhausting.</p>
+                <p>We can custom tailor a website that fits your exact needs and desires while also removing all the clutter that makes a CMS app like Wordpress exhausting.</p>
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@ export default class IndexPage extends React.Component {
             <div className='row'>
               <div className='col-md-8 col-md-offset-2'>
                 <div className='contact-box'>
-                  <form name="contact" method="POST" data-netlify="true">
+                  <form name="contact" method="POST" data-netlify="true" action="/thanks">
                     <div className="row">
                       <div className="col-md-6">
                         <div className="form-group">
