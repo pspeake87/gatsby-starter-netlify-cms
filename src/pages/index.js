@@ -32,25 +32,30 @@ const encode = (data) => {
 export default class IndexPage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", message: "", subject: "" };
+    this.state = { bot: "", name: "", email: "", message: "", subject: "" };
   }
 
   handleSubmit = e => {
     e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact-form", ...this.state })
-    })
-      .then(() => alert("Success!"))
-      .catch(error => alert(error));
+    if (this.state.bot === "") {
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact-form", ...this.state })
+      })
+        .then(() => {
+          this.setState({ name: "", email: "", message: "", subject: "" , bot: ""});
+          alert("Your message was successfully sent!")
+        })
+        .catch(error => alert(error));
+    }
   };
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: posts } = data.allMarkdownRemark;
     const { name, email, message, subject } = this.state;
 
     return (
@@ -329,7 +334,7 @@ export default class IndexPage extends React.Component {
                   <form onSubmit={this.handleSubmit}>
                     <div className="row">
                       <input type="hidden" name="form-name" value="contact-form" />
-                      <input type="hidden" name="bot-field" />
+                      <input type="hidden" onChange={this.handleChange} />
                       <div className="col-md-6">
                         <div className="form-group">
                           <input className="form-control" value={name} type="text" name="name" id="name" placeholder="NAME" onChange={this.handleChange}  />
