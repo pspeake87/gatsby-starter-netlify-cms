@@ -23,10 +23,36 @@ import Leroy from '../layouts/img/logos/Leroy.png'
 
 import programming from '../layouts/img/programming.jpg'
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
+
 export default class IndexPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: "", email: "", message: "", subject: "" };
+  }
+
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact-form", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
+
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
+    const { name, email, message, subject } = this.state;
 
     return (
       <div>
@@ -301,31 +327,31 @@ export default class IndexPage extends React.Component {
             <div className='row'>
               <div className='col-md-8 col-md-offset-2'>
                 <div className='contact-box'>
-                  <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                  <form onSubmit={this.handleSubmit}>
                     <div className="row">
                       <input type="hidden" name="bot-field" />
                       <div className="col-md-6">
                         <div className="form-group">
-                          <input className="form-control" type="text" name="name" id="name" placeholder="NAME"  />
+                          <input className="form-control" value={name} type="text" name="name" id="name" placeholder="NAME" onChange={this.handleChange}  />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-group">
-                          <input className="form-control" type="text" name="email" id="email" placeholder="EMAIL" />
+                          <input className="form-control" value={email} type="text" name="email" id="email" placeholder="EMAIL" onChange={this.handleChange} />
                         </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-group">
-                          <input className="form-control" type="text" name="subject" id="subject" placeholder="SUBJECT" />
+                          <input className="form-control" value={subject} type="text" name="subject" id="subject" placeholder="SUBJECT" onChange={this.handleChange} />
                         </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-group">
-                          <textarea className="form-control" name="message" id="message" rows="10" cols="30" placeholder="MESSAGE"></textarea>
+                          <textarea className="form-control" value={message} name="message" id="message" rows="10" cols="30" placeholder="MESSAGE" onChange={this.handleChange} />
                         </div>
                       </div>
                       <div className="col-md-12 text-center">
-                        <input type="submit" value="Send Message" className="btn btn-brand btn-circle" />
+                        <button type="submit" className="btn btn-brand btn-circle" >Send Now</button>
                       </div>
                     </div>
                   </form>
