@@ -301,7 +301,11 @@ export default class IndexPage extends React.Component {
             <div className='row'>
               <div className='col-md-8 col-md-offset-2'>
                 <div className='contact-box'>
-                  <form name="contact" method="POST" data-netlify="true" action="/thanks">
+                  <form
+                    name="contact-us"
+                    method="post"
+                    data-netlify="true"
+                  >
                     <div className="row">
                       <div className="col-md-6">
                         <div className="form-group">
