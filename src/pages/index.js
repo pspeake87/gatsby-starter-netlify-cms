@@ -36,6 +36,7 @@ export default class IndexPage extends React.Component {
   }
 
   handleSubmit = e => {
+    e.preventDefault();
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -43,8 +44,6 @@ export default class IndexPage extends React.Component {
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
-
-    e.preventDefault();
   };
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
@@ -329,6 +328,7 @@ export default class IndexPage extends React.Component {
                 <div className='contact-box'>
                   <form onSubmit={this.handleSubmit}>
                     <div className="row">
+                      <input type="hidden" name="form-name" value="contact-form" />
                       <input type="hidden" name="bot-field" />
                       <div className="col-md-6">
                         <div className="form-group">
