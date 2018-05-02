@@ -301,35 +301,32 @@ export default class IndexPage extends React.Component {
             <div className='row'>
               <div className='col-md-8 col-md-offset-2'>
                 <div className='contact-box'>
-                  <form
-                    name="contact-us"
-                    method="post"
-                    data-netlify="true"
-                  >
+                  <form name="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                     <div className="row">
+                      <input type="hidden" name="bot-field" />
                       <div className="col-md-6">
                         <div className="form-group">
-                          <input type="text" name="name" placeholder="NAME" className="form-control" />
+                          <input className="form-control" type="text" name="name" id="name" placeholder="NAME"  />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-group">
-                          <input type="email" name="email" placeholder="EMAIL" className="form-control" />
+                          <input className="form-control" type="text" name="email" id="email" placeholder="EMAIL" />
                         </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-group">
-                          <input type="text" name="subject" placeholder="SUBJECT" className="form-control" />
+                          <input className="form-control" type="text" name="subject" id="subject" placeholder="SUBJECT" />
                         </div>
                       </div>
                       <div className="col-md-12">
                         <div className="form-group">
-                          <textarea name="message" className="form-control" cols={30} rows={10} placeholder="MESSAGE" />
+                          <textarea className="form-control" name="message" id="message" rows="10" cols="30" placeholder="MESSAGE"></textarea>
                         </div>
                       </div>
-                    </div>
-                    <div className="col-md-12 text-center">
-                      <button type="submit" className="btn btn-brand btn-circle">Send Now</button>
+                      <div className="col-md-12 text-center">
+                        <input type="submit" value="Send Message" className="btn btn-brand btn-circle" />
+                      </div>
                     </div>
                   </form>
                 </div>

@@ -91,46 +91,46 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="307" column="18" lean-forward="false" selection-start-line="307" selection-start-column="18" selection-end-line="307" selection-end-column="18" />
+            <state relative-caret-position="274">
+              <caret line="308" column="58" lean-forward="false" selection-start-line="308" selection-start-column="58" selection-end-line="308" selection-end-column="58" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <marker date="1525292153307" expanded="true" signature="16634:17009" ph="query...{&#10;    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }&#10;  }" />
-                <marker date="1525292153307" expanded="true" signature="16640:16650" ph="IndexQuery...IndexQuery" />
-                <marker date="1525292153307" expanded="true" signature="16651:17009" ph="{...}" />
-                <marker date="1525292153307" expanded="true" signature="16657:16674" ph="allMarkdownRemark...allMarkdownRemark" />
-                <marker date="1525292153307" expanded="true" signature="16657:17005" ph="allMarkdownRemark...{&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }" />
-                <marker date="1525292153307" expanded="true" signature="16674:16727" ph="(...)" />
-                <marker date="1525292153307" expanded="true" signature="16675:16679" ph="sort...sort" />
-                <marker date="1525292153307" expanded="true" signature="16675:16726" ph="sort...{ order: DESC, fields: [frontmatter___date] }" />
-                <marker date="1525292153307" expanded="true" signature="16681:16726" ph="{...}" />
-                <marker date="1525292153307" expanded="true" signature="16683:16688" ph="order...order" />
-                <marker date="1525292153307" expanded="true" signature="16696:16702" ph="fields...fields" />
-                <marker date="1525292153307" expanded="true" signature="16696:16724" ph="fields...[frontmatter___date]" />
-                <marker date="1525292153307" expanded="true" signature="16704:16724" ph="[...]" />
-                <marker date="1525292153307" expanded="true" signature="16728:17005" ph="{...}" />
-                <marker date="1525292153307" expanded="true" signature="16736:16741" ph="edges...edges" />
-                <marker date="1525292153307" expanded="true" signature="16736:16999" ph="edges...{&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }" />
-                <marker date="1525292153307" expanded="true" signature="16742:16999" ph="{...}" />
-                <marker date="1525292153307" expanded="true" signature="16752:16756" ph="node...node" />
-                <marker date="1525292153307" expanded="true" signature="16752:16991" ph="node...{&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }" />
-                <marker date="1525292153307" expanded="true" signature="16757:16991" ph="{...}" />
-                <marker date="1525292153307" expanded="true" signature="16769:16776" ph="excerpt...excerpt" />
-                <marker date="1525292153307" expanded="true" signature="16776:16794" ph="(...)" />
-                <marker date="1525292153307" expanded="true" signature="16777:16788" ph="pruneLength...pruneLength" />
-                <marker date="1525292153307" expanded="true" signature="16805:16807" ph="id...id" />
-                <marker date="1525292153307" expanded="true" signature="16818:16824" ph="fields...fields" />
-                <marker date="1525292153307" expanded="true" signature="16818:16855" ph="fields...{&#10;            slug&#10;          }" />
-                <marker date="1525292153307" expanded="true" signature="16825:16855" ph="{...}" />
-                <marker date="1525292153307" expanded="true" signature="16839:16843" ph="slug...slug" />
-                <marker date="1525292153307" expanded="true" signature="16866:16877" ph="frontmatter...frontmatter" />
-                <marker date="1525292153307" expanded="true" signature="16866:16981" ph="frontmatter...{&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }" />
-                <marker date="1525292153307" expanded="true" signature="16878:16981" ph="{...}" />
-                <marker date="1525292153307" expanded="true" signature="16892:16897" ph="title...title" />
-                <marker date="1525292153307" expanded="true" signature="16910:16921" ph="templateKey...templateKey" />
-                <marker date="1525292153307" expanded="true" signature="16934:16938" ph="date...date" />
-                <marker date="1525292153307" expanded="true" signature="16938:16969" ph="(...)" />
-                <marker date="1525292153307" expanded="true" signature="16939:16951" ph="formatString...formatString" />
+                <marker date="1525293444042" expanded="true" signature="16721:17096" ph="query...{&#10;    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }&#10;  }" />
+                <marker date="1525293444042" expanded="true" signature="16727:16737" ph="IndexQuery...IndexQuery" />
+                <marker date="1525293444042" expanded="true" signature="16738:17096" ph="{...}" />
+                <marker date="1525293444042" expanded="true" signature="16744:16761" ph="allMarkdownRemark...allMarkdownRemark" />
+                <marker date="1525293444042" expanded="true" signature="16744:17092" ph="allMarkdownRemark...{&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }" />
+                <marker date="1525293444042" expanded="true" signature="16761:16814" ph="(...)" />
+                <marker date="1525293444042" expanded="true" signature="16762:16766" ph="sort...sort" />
+                <marker date="1525293444042" expanded="true" signature="16762:16813" ph="sort...{ order: DESC, fields: [frontmatter___date] }" />
+                <marker date="1525293444042" expanded="true" signature="16768:16813" ph="{...}" />
+                <marker date="1525293444042" expanded="true" signature="16770:16775" ph="order...order" />
+                <marker date="1525293444042" expanded="true" signature="16783:16789" ph="fields...fields" />
+                <marker date="1525293444042" expanded="true" signature="16783:16811" ph="fields...[frontmatter___date]" />
+                <marker date="1525293444042" expanded="true" signature="16791:16811" ph="[...]" />
+                <marker date="1525293444042" expanded="true" signature="16815:17092" ph="{...}" />
+                <marker date="1525293444042" expanded="true" signature="16823:16828" ph="edges...edges" />
+                <marker date="1525293444042" expanded="true" signature="16823:17086" ph="edges...{&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }" />
+                <marker date="1525293444042" expanded="true" signature="16829:17086" ph="{...}" />
+                <marker date="1525293444042" expanded="true" signature="16839:16843" ph="node...node" />
+                <marker date="1525293444042" expanded="true" signature="16839:17078" ph="node...{&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }" />
+                <marker date="1525293444042" expanded="true" signature="16844:17078" ph="{...}" />
+                <marker date="1525293444042" expanded="true" signature="16856:16863" ph="excerpt...excerpt" />
+                <marker date="1525293444042" expanded="true" signature="16863:16881" ph="(...)" />
+                <marker date="1525293444042" expanded="true" signature="16864:16875" ph="pruneLength...pruneLength" />
+                <marker date="1525293444042" expanded="true" signature="16892:16894" ph="id...id" />
+                <marker date="1525293444042" expanded="true" signature="16905:16911" ph="fields...fields" />
+                <marker date="1525293444042" expanded="true" signature="16905:16942" ph="fields...{&#10;            slug&#10;          }" />
+                <marker date="1525293444042" expanded="true" signature="16912:16942" ph="{...}" />
+                <marker date="1525293444042" expanded="true" signature="16926:16930" ph="slug...slug" />
+                <marker date="1525293444042" expanded="true" signature="16953:16964" ph="frontmatter...frontmatter" />
+                <marker date="1525293444042" expanded="true" signature="16953:17068" ph="frontmatter...{&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }" />
+                <marker date="1525293444042" expanded="true" signature="16965:17068" ph="{...}" />
+                <marker date="1525293444042" expanded="true" signature="16979:16984" ph="title...title" />
+                <marker date="1525293444042" expanded="true" signature="16997:17008" ph="templateKey...templateKey" />
+                <marker date="1525293444042" expanded="true" signature="17021:17025" ph="date...date" />
+                <marker date="1525293444042" expanded="true" signature="17025:17056" ph="(...)" />
+                <marker date="1525293444042" expanded="true" signature="17026:17038" ph="formatString...formatString" />
               </folding>
             </state>
           </provider>
@@ -323,12 +323,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525209088033</updated>
-      <workItem from="1525209090386" duration="14586000" />
+      <workItem from="1525209090386" duration="15466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14586000" />
+    <option name="totallyTimeSpent" value="15466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1611" height="950" extended-state="0" />
@@ -883,46 +883,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="307" column="18" lean-forward="false" selection-start-line="307" selection-start-column="18" selection-end-line="307" selection-end-column="18" />
+        <state relative-caret-position="274">
+          <caret line="308" column="58" lean-forward="false" selection-start-line="308" selection-start-column="58" selection-end-line="308" selection-end-column="58" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <marker date="1525292153307" expanded="true" signature="16634:17009" ph="query...{&#10;    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }&#10;  }" />
-            <marker date="1525292153307" expanded="true" signature="16640:16650" ph="IndexQuery...IndexQuery" />
-            <marker date="1525292153307" expanded="true" signature="16651:17009" ph="{...}" />
-            <marker date="1525292153307" expanded="true" signature="16657:16674" ph="allMarkdownRemark...allMarkdownRemark" />
-            <marker date="1525292153307" expanded="true" signature="16657:17005" ph="allMarkdownRemark...{&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }" />
-            <marker date="1525292153307" expanded="true" signature="16674:16727" ph="(...)" />
-            <marker date="1525292153307" expanded="true" signature="16675:16679" ph="sort...sort" />
-            <marker date="1525292153307" expanded="true" signature="16675:16726" ph="sort...{ order: DESC, fields: [frontmatter___date] }" />
-            <marker date="1525292153307" expanded="true" signature="16681:16726" ph="{...}" />
-            <marker date="1525292153307" expanded="true" signature="16683:16688" ph="order...order" />
-            <marker date="1525292153307" expanded="true" signature="16696:16702" ph="fields...fields" />
-            <marker date="1525292153307" expanded="true" signature="16696:16724" ph="fields...[frontmatter___date]" />
-            <marker date="1525292153307" expanded="true" signature="16704:16724" ph="[...]" />
-            <marker date="1525292153307" expanded="true" signature="16728:17005" ph="{...}" />
-            <marker date="1525292153307" expanded="true" signature="16736:16741" ph="edges...edges" />
-            <marker date="1525292153307" expanded="true" signature="16736:16999" ph="edges...{&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }" />
-            <marker date="1525292153307" expanded="true" signature="16742:16999" ph="{...}" />
-            <marker date="1525292153307" expanded="true" signature="16752:16756" ph="node...node" />
-            <marker date="1525292153307" expanded="true" signature="16752:16991" ph="node...{&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }" />
-            <marker date="1525292153307" expanded="true" signature="16757:16991" ph="{...}" />
-            <marker date="1525292153307" expanded="true" signature="16769:16776" ph="excerpt...excerpt" />
-            <marker date="1525292153307" expanded="true" signature="16776:16794" ph="(...)" />
-            <marker date="1525292153307" expanded="true" signature="16777:16788" ph="pruneLength...pruneLength" />
-            <marker date="1525292153307" expanded="true" signature="16805:16807" ph="id...id" />
-            <marker date="1525292153307" expanded="true" signature="16818:16824" ph="fields...fields" />
-            <marker date="1525292153307" expanded="true" signature="16818:16855" ph="fields...{&#10;            slug&#10;          }" />
-            <marker date="1525292153307" expanded="true" signature="16825:16855" ph="{...}" />
-            <marker date="1525292153307" expanded="true" signature="16839:16843" ph="slug...slug" />
-            <marker date="1525292153307" expanded="true" signature="16866:16877" ph="frontmatter...frontmatter" />
-            <marker date="1525292153307" expanded="true" signature="16866:16981" ph="frontmatter...{&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }" />
-            <marker date="1525292153307" expanded="true" signature="16878:16981" ph="{...}" />
-            <marker date="1525292153307" expanded="true" signature="16892:16897" ph="title...title" />
-            <marker date="1525292153307" expanded="true" signature="16910:16921" ph="templateKey...templateKey" />
-            <marker date="1525292153307" expanded="true" signature="16934:16938" ph="date...date" />
-            <marker date="1525292153307" expanded="true" signature="16938:16969" ph="(...)" />
-            <marker date="1525292153307" expanded="true" signature="16939:16951" ph="formatString...formatString" />
+            <marker date="1525293444042" expanded="true" signature="16721:17096" ph="query...{&#10;    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }&#10;  }" />
+            <marker date="1525293444042" expanded="true" signature="16727:16737" ph="IndexQuery...IndexQuery" />
+            <marker date="1525293444042" expanded="true" signature="16738:17096" ph="{...}" />
+            <marker date="1525293444042" expanded="true" signature="16744:16761" ph="allMarkdownRemark...allMarkdownRemark" />
+            <marker date="1525293444042" expanded="true" signature="16744:17092" ph="allMarkdownRemark...{&#10;      edges {&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }&#10;    }" />
+            <marker date="1525293444042" expanded="true" signature="16761:16814" ph="(...)" />
+            <marker date="1525293444042" expanded="true" signature="16762:16766" ph="sort...sort" />
+            <marker date="1525293444042" expanded="true" signature="16762:16813" ph="sort...{ order: DESC, fields: [frontmatter___date] }" />
+            <marker date="1525293444042" expanded="true" signature="16768:16813" ph="{...}" />
+            <marker date="1525293444042" expanded="true" signature="16770:16775" ph="order...order" />
+            <marker date="1525293444042" expanded="true" signature="16783:16789" ph="fields...fields" />
+            <marker date="1525293444042" expanded="true" signature="16783:16811" ph="fields...[frontmatter___date]" />
+            <marker date="1525293444042" expanded="true" signature="16791:16811" ph="[...]" />
+            <marker date="1525293444042" expanded="true" signature="16815:17092" ph="{...}" />
+            <marker date="1525293444042" expanded="true" signature="16823:16828" ph="edges...edges" />
+            <marker date="1525293444042" expanded="true" signature="16823:17086" ph="edges...{&#10;        node {&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }&#10;      }" />
+            <marker date="1525293444042" expanded="true" signature="16829:17086" ph="{...}" />
+            <marker date="1525293444042" expanded="true" signature="16839:16843" ph="node...node" />
+            <marker date="1525293444042" expanded="true" signature="16839:17078" ph="node...{&#10;          excerpt(pruneLength: 400)&#10;          id&#10;          fields {&#10;            slug&#10;          }&#10;          frontmatter {&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }&#10;        }" />
+            <marker date="1525293444042" expanded="true" signature="16844:17078" ph="{...}" />
+            <marker date="1525293444042" expanded="true" signature="16856:16863" ph="excerpt...excerpt" />
+            <marker date="1525293444042" expanded="true" signature="16863:16881" ph="(...)" />
+            <marker date="1525293444042" expanded="true" signature="16864:16875" ph="pruneLength...pruneLength" />
+            <marker date="1525293444042" expanded="true" signature="16892:16894" ph="id...id" />
+            <marker date="1525293444042" expanded="true" signature="16905:16911" ph="fields...fields" />
+            <marker date="1525293444042" expanded="true" signature="16905:16942" ph="fields...{&#10;            slug&#10;          }" />
+            <marker date="1525293444042" expanded="true" signature="16912:16942" ph="{...}" />
+            <marker date="1525293444042" expanded="true" signature="16926:16930" ph="slug...slug" />
+            <marker date="1525293444042" expanded="true" signature="16953:16964" ph="frontmatter...frontmatter" />
+            <marker date="1525293444042" expanded="true" signature="16953:17068" ph="frontmatter...{&#10;            title&#10;            templateKey&#10;            date(formatString: &quot;MMMM DD, YYYY&quot;)&#10;          }" />
+            <marker date="1525293444042" expanded="true" signature="16965:17068" ph="{...}" />
+            <marker date="1525293444042" expanded="true" signature="16979:16984" ph="title...title" />
+            <marker date="1525293444042" expanded="true" signature="16997:17008" ph="templateKey...templateKey" />
+            <marker date="1525293444042" expanded="true" signature="17021:17025" ph="date...date" />
+            <marker date="1525293444042" expanded="true" signature="17025:17056" ph="(...)" />
+            <marker date="1525293444042" expanded="true" signature="17026:17038" ph="formatString...formatString" />
           </folding>
         </state>
       </provider>
