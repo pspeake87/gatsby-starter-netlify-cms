@@ -11,6 +11,7 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
       <title>Speake Software | Custom Software Development</title>
+      <meta name="google-site-verification" content="WJP7leNv9TY1mVO8CwZKT9WcKrbSrYIWCw2daBveq2M" />
       <meta name="description" content="We are a custom software development company from Dixon, California that designs and develops web and mobile apps for a variety of clients." />
       <meta name="keywords" content="software, custom, web, mobile, apps, design, website, development, react, node, rails, ruby, hosting, cheap, affordable, quality, reliable, innovative, native, business, corporate, startup, cto" />
       <link rel="shortcut icon" href={favicon} />
