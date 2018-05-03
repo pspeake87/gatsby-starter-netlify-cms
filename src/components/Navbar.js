@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import logo from '../layouts/img/logo.svg'
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 export default class MainNavbar extends React.Component {
   render() {
@@ -25,26 +25,21 @@ export default class MainNavbar extends React.Component {
                   Home
                 </Link>
               </li>
-              <li>
-                <Link to="#section-service">
-                  Services
-                </Link>
-              </li>
-              <li>
-                <Link to="#section-feature">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link to="#section-client">
-                  Clients
-                </Link>
-              </li>
-              <li>
-                <Link to="#section-contact">
-                  Contact
-                </Link>
-              </li>
+              <NavItem to="#section-service">
+                Services
+              </NavItem>
+
+              <NavItem to="#section-feature">
+                About
+              </NavItem>
+
+              <NavItem to="#section-client">
+                Clients
+              </NavItem>
+
+              <NavItem to="#section-contact">
+                Contact
+              </NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

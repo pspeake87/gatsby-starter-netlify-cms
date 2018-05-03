@@ -55,7 +55,6 @@ export default class Footer extends React.Component {
                   <br />
                   <h4 className='margin-botm-20'>Philip Speake</h4>
                   <h4 className='margin-botm-20'>Owner/Lead Developer</h4>
-                  <h4 className='margin-botm-20'>405.432.6799</h4>
                   <h4 className='margin-botm-20'>philip@speaksoftware.co</h4>
                   <br />
                   <h4 className='margin-botm-20'>Josh Rector</h4>

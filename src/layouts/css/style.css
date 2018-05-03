@@ -43,6 +43,13 @@
 
  ***/
 
+@media (max-width: 767px) {
+    .navbar-brand > img {
+        margin-top: -25px;
+        max-width: 200px;
+    }
+}
+
 body {
     font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;

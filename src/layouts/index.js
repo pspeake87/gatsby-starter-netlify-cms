@@ -29,10 +29,6 @@ const TemplateWrapper = ({ children }) => (
             <div className="pull-right">
               <ul className="list-inline top-contact-link">
                 <li>
-                  <i className="fa fa-envelope-o" />
-                  info@speakesoftware.co
-                </li>
-                <li>
                   <i className="fa fa-clock-o" />
                   Mon-Sat : 9am-5pm
                 </li>
