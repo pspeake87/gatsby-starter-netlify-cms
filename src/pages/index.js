@@ -68,7 +68,7 @@ export default class IndexPage extends React.Component {
                   <div className='banner-content-inner text-center'>
                     <h1 className='data-aos' data-aos='slide-left'>Your Next Big Idea Starts Here!</h1>
                     <h4 className='data-aos' data-aos='slide-up'>Custom software solutions to make your tech ideas come true</h4>
-                    <a className='btn btn-brand btn-circle page-scroll' href='#section-contact'>Free Consultation</a>
+                    <a className='btn btn-brand btn-circle page-scroll' href="#section-contact">Free Consultation</a>
                   </div>
                 </div>
               </div>

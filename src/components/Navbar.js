@@ -25,19 +25,19 @@ export default class MainNavbar extends React.Component {
                   Home
                 </Link>
               </li>
-              <NavItem to="#section-service">
+              <NavItem href="#section-service">
                 Services
               </NavItem>
 
-              <NavItem to="#section-feature">
+              <NavItem href="#section-feature">
                 About
               </NavItem>
 
-              <NavItem to="#section-client">
+              <NavItem href="#section-client">
                 Clients
               </NavItem>
 
-              <NavItem to="#section-contact">
+              <NavItem href="#section-contact">
                 Contact
               </NavItem>
             </Nav>
