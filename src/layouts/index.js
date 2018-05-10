@@ -10,7 +10,7 @@ import './all.sass'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <title>Northern California Web Design | Custom Website & Software Development</title>
+      <title>Northern California Web Design | Custom Software Development</title>
       <meta
         name="google-site-verification"
         content="WJP7leNv9TY1mVO8CwZKT9WcKrbSrYIWCw2daBveq2M"
