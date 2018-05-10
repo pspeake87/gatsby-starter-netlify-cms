@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import logo from '../layouts/img/logo.svg'
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 
 export default class MainNavbar extends React.Component {
   render() {
@@ -13,7 +13,11 @@ export default class MainNavbar extends React.Component {
             <Navbar.Toggle />
             <Navbar.Brand>
               <a href="/">
-                <img src={logo} alt="speake-software" className="img-responsive" />
+                <img
+                  src={logo}
+                  alt="speake-software"
+                  className="img-responsive"
+                />
               </a>
             </Navbar.Brand>
           </Navbar.Header>
@@ -21,29 +25,31 @@ export default class MainNavbar extends React.Component {
           <Navbar.Collapse>
             <Nav pullRight>
               <li>
-                <Link to="/">
-                  Home
-                </Link>
+                <Link to="/">Home</Link>
               </li>
-              <NavItem href="#section-service">
-                Services
-              </NavItem>
+              <NavDropdown
+                eventKey={3}
+                title="Services"
+                id="basic-nav-dropdown"
+              >
+                <MenuItem href="/services/web-design">Website Design</MenuItem>
+                <MenuItem href="/services/mobile-app-development">
+                  Mobile App Development
+                </MenuItem>
+                <MenuItem href="/services/seo-management">
+                  SEO Management
+                </MenuItem>
+              </NavDropdown>
 
-              <NavItem href="#section-feature">
-                About
-              </NavItem>
+              <NavItem href="/about">About</NavItem>
 
-              <NavItem href="#section-client">
-                Clients
-              </NavItem>
+              {/*<NavItem href="/portfolio">Portfolio</NavItem>*/}
 
-              <NavItem href="#section-contact">
-                Contact
-              </NavItem>
+              <NavItem href="/contact">Contact</NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
       </header>
-    );
+    )
   }
 }

@@ -14,7 +14,7 @@
 
 **********************************************/
 
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic,900italic,900,300,300italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,600,600italic,700,700italic,900italic,900,300,300italic);
 @import url('font-awesome.css');
 @import url('icofont.css');
 @import url('animate.css');
@@ -90,7 +90,7 @@ h4,
 h5,
 h6 {
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: normal;
     margin: 0px;
     background: none;
@@ -788,22 +788,24 @@ li {
 
 ***/
 
-#section-banner {
-    background: #fff;
-    background: url("../img/bg-main.svg") center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+#section-banner.blue {
+    background-image: linear-gradient(to right, #57c9f3 0%, #68ece6 100%)
 }
 
 .content-padding {
-    padding: 120px 0px 160px 0px;
+    padding: 120px 0px 100px 0px;
+}
+
+@media(max-width:768px) {
+    .content-padding {
+        padding: 60px 0px 80px 0px;
+    }
 }
 
 .banner-content-inner {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
+
 }
 
 .banner-content-inner img {
@@ -812,7 +814,16 @@ li {
 }
 
 .banner-content-inner h1 {
-    font-weight: 400;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner-content-inner h3 {
+    color: #fff;
+}
+
+.banner-content-inner h4 {
+    color: #fff;
 }
 
 .banner-content-inner .btn {
@@ -1305,51 +1316,45 @@ li {
 
 .form-control {
     display: block;
-    border: 0px;
     width: 100%;
     height: 45px;
     font-size: 16px;
     line-height: 1.42857143;
     color: #000;
-    background-color: transparent;
-    background-image: none;
     border-radius: 0px;
     box-shadow: none;
     margin-bottom: 15px;
     padding: 14px 7px 14px 15px;
-    border: 1px solid #DDDEDD;
-    background: #DDDEDD;
-    border-radius: 0px;
+    background: #fff;
+    opacity: 0.8;
     -webkit-transition: .3s;
     transition: .3s
 }
 
 .form-control:focus {
-    border-color: #000;
     outline: 0;
     box-shadow: none;
-    background: none;
+    opacity: 1.0;
     -webkit-transition: .3s;
     transition: .3s
 }
 
-.contact-form input[type='submit'] {
+.contact-box-submit {
+    width: 100%;
     display: inline-block;
-    color: #333;
-    /*    background: #DDDEDD;*/
-    padding: 15px 30px;
+    background: #43A047;
+    color: #fff;
+    padding: 10px 20px;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 14px;
     border: none;
-    border-radius: 0px;
     font-weight: 600;
     -webkit-transition: .3s;
     transition: .3s;
     letter-spacing: 3px;
-    border-radius: 30px;
 }
 
-.contact-form input[type='submit']:hover {
+.contact-box-submit:hover {
     background: #202020;
     -webkit-transition: all 0.4s;
     -webkit-transition: all 0.2s;

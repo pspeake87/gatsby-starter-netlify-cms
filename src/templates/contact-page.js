@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Content, { HTMLContent } from '../components/Content'
+import Form from '../components/Form'
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const ContactPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -11,10 +12,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         <div className="container">
           <div className="row">
             <div className="section-heading">
-              <h2 className="text-center">Who we are</h2>
+              <h2 className="text-center">Contact Us</h2>
               <br />
               <div className="sec-line" />
-              <PageContent className="content" content={content} />
+              <br />
+              <PageContent className="content text-center" content={content} />
+              <br />
+              <Form />
             </div>
           </div>
         </div>
@@ -23,17 +27,17 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   )
 }
 
-AboutPageTemplate.propTypes = {
+ContactPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const ContactPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
-    <AboutPageTemplate
+    <ContactPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
@@ -41,14 +45,14 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+ContactPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
+export default ContactPage
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const contactPageQuery = graphql`
+  query ContactPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

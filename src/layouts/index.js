@@ -4,41 +4,28 @@ import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import favicon from './img/favicon.ico';
+import favicon from './img/favicon.ico'
 import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <title>Speake Software | Custom Software Development</title>
-      <meta name="google-site-verification" content="WJP7leNv9TY1mVO8CwZKT9WcKrbSrYIWCw2daBveq2M" />
-      <meta name="description" content="We are a custom software development company from Dixon, California that designs and develops web and mobile apps for a variety of clients." />
-      <meta name="keywords" content="software, custom, web, mobile, apps, design, website, development, react, node, rails, ruby, hosting, cheap, affordable, quality, reliable, innovative, native, business, corporate, startup, cto" />
+      <title>Northern California Web Design | Custom Website & Software Development</title>
+      <meta
+        name="google-site-verification"
+        content="WJP7leNv9TY1mVO8CwZKT9WcKrbSrYIWCw2daBveq2M"
+      />
+      <meta name="msvalidate.01" content="4BC90264D5A19209C3797B0679F86CC6" />
+      <meta
+        name="description"
+        content="We are a custom software development company from Dixon, California that designs and develops web and mobile apps for a variety of clients in the Northern California region and beyond."
+      />
+      <meta
+        name="keywords"
+        content="northern, california, website, software, custom, web, mobile, apps, design, website, development, react, node, rails, ruby, hosting, cheap, affordable, quality, reliable, innovative, native, business, corporate, startup, cto"
+      />
       <link rel="shortcut icon" href={favicon} />
     </Helmet>
-    <section className="hidden-sm hidden-xs" id="header-top-bar">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="pull-left">
-              <ul>
-                <li>
-                  Speake Software & Consulting - Custom Software Development
-                </li>
-              </ul>
-            </div>
-            <div className="pull-right">
-              <ul className="list-inline top-contact-link">
-                <li>
-                  <i className="fa fa-clock-o" />
-                  Mon-Sat : 9am-5pm
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <Navbar />
     <div>{children()}</div>
     <Footer />
