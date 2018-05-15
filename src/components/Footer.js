@@ -69,15 +69,6 @@ export default class Footer extends React.Component {
                   <h4 className="margin-botm-20">610 W C St</h4>
                   <h4 className="margin-botm-20">Dixon, California</h4>
                   <h4 className="margin-botm-20">405.432.6799</h4>
-                  <br />
-                  <br />
-                  <a href="https://upcity.com/local-marketing-agencies/profiles/speake-software-consulting">
-                    <img
-                      src="https://app.upcity.com/images/badges/featured.png"
-                      width="300px"
-                      height="70px"
-                    />
-                  </a>
                 </div>
               </div>
             </div>

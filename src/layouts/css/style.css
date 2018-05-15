@@ -1,6 +1,4 @@
 /* Seoguide HTML5 Template */
-
-
 /************ TABLE OF CONTENTS ***************
 1. Fonts
 2. Reset
@@ -13,7 +11,6 @@
 9. Fact Counter
 
 **********************************************/
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,600,600italic,700,700italic,900italic,900,300,300italic);
 @import url('font-awesome.css');
 @import url('icofont.css');
@@ -34,8 +31,7 @@
     outline: none;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -75,7 +71,6 @@ a:visited {
     text-decoration: none;
     outline: none;
 }
-
 
 /*
 a:hover{
@@ -212,7 +207,6 @@ li {
     border-color: #57c9f3 !important;
     background: none;
 }
-
 
 /*---------------------------------*/
 
@@ -456,8 +450,7 @@ li {
     background-repeat: no-repeat;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -497,8 +490,7 @@ li {
     background: #ffffff;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -515,20 +507,20 @@ li {
     color: #666;
 }
 
-.top-contact-link {}
+.top-contact-link {
+}
 
 .top-contact-link li i {
     color: #57c9f3;
     margin-right: 10px;
 }
 
-
 /*-------------------------------------
 	HEADER MENU AREA
 ----------------------------------------*/
 
 .navbar {
-    border: 0px!important;
+    border: 0px !important;
     -webkit-box-shadow: 0px 0px 1px 0px #eee;
     box-shadow: 0px 0px 1px 0px #eee;
 }
@@ -546,7 +538,7 @@ li {
     font-size: 16px;
     line-height: 18px;
     font-weight: 700;
-    color: #111!important;
+    color: #111 !important;
     text-transform: capitalize;
 }
 
@@ -555,21 +547,21 @@ li {
 }
 
 .navbar-default li a:hover {
-    color: #2395ec!important;
+    color: #2395ec !important;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>a:hover,
-.navbar-default .navbar-nav>.active>a:hover {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > a:hover,
+.navbar-default .navbar-nav > .active > a:hover {
     background: transparent;
-    border-bottom: 2px solid#2395ec;
+    border-bottom: 2px solid #2395ec;
     position: relative;
-    color: #2395ec!important;
+    color: #2395ec !important;
 }
 
-.navbar-default .navbar-nav>.active>a:after,
-.navbar-default .navbar-nav>.active a:hover:after {
+.navbar-default .navbar-nav > .active > a:after,
+.navbar-default .navbar-nav > .active a:hover:after {
     position: absolute;
     content: "";
     width: 0;
@@ -581,7 +573,6 @@ li {
     left: 45%;
 }
 
-
 /* DROPDOWN MENU*/
 
 .navbar-default li.dropdown ul li a {
@@ -591,12 +582,12 @@ li {
 
 .dropdown-submenu {
     position: relative;
-    -webkit-transition: ;
-    -o-transition: ;
+    -webkit-transition:;
+    -o-transition:;
     transition: all .3s ease;
 }
 
-.dropdown-submenu>.dropdown-menu {
+.dropdown-submenu > .dropdown-menu {
     top: 0;
     left: 100%;
     margin-top: -6px;
@@ -604,11 +595,11 @@ li {
     border-radius: 0;
 }
 
-.dropdown-submenu:hover>.dropdown-menu {
+.dropdown-submenu:hover > .dropdown-menu {
     display: block;
 }
 
-.dropdown-submenu>a:after {
+.dropdown-submenu > a:after {
     display: block;
     content: "\f105";
     font-family: FontAwesome;
@@ -617,7 +608,7 @@ li {
     margin-right: -5px;
 }
 
-.dropdown-submenu:hover>a:after {
+.dropdown-submenu:hover > a:after {
     border-left-color: #fff;
 }
 
@@ -625,7 +616,7 @@ li {
     float: none;
 }
 
-.dropdown-submenu.pull-left>.dropdown-menu {
+.dropdown-submenu.pull-left > .dropdown-menu {
     left: -100%;
     margin-left: 10px;
     -webkit-border-radius: 6px 0 6px 6px;
@@ -637,9 +628,11 @@ li {
     ul.nav li.dropdown:hover ul.dropdown-menu {
         display: block;
     }
+
     ul.nav li.dropdown:hover ul.dropdown-menu li.dropdown-submenu ul.dropdown-menu {
         display: none;
     }
+
     ul.nav li.dropdown ul.dropdown-menu li.dropdown-submenu:hover ul.dropdown-menu {
         display: block;
     }
@@ -652,28 +645,28 @@ li {
     min-width: 200px;
     border-radius: 0;
     border: 0;
-    -webkit-transition: ;
+    -webkit-transition:;
 }
 
 .dropdown-menu-large {
     min-width: 400px;
 }
 
-.dropdown-menu-large>li>ul {
+.dropdown-menu-large > li > ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.dropdown-menu-large>li>ul>li>a {
+.dropdown-menu-large > li > ul > li > a {
     padding-left: 0;
 }
 
-.dropdown-menu-large>li>ul>li.active>a {
+.dropdown-menu-large > li > ul > li.active > a {
     color: #1bbc9b;
 }
 
-.navbar-nav>li>.dropdown-menu a {
+.navbar-nav > li > .dropdown-menu a {
     background: none;
 }
 
@@ -686,14 +679,14 @@ li {
     text-transform: uppercase;
 }
 
-.dropdown-menu li:last-child>a {
+.dropdown-menu li:last-child > a {
     border-bottom: 0;
 }
 
-.dropdown-menu>.active>a,
-.dropdown-menu>.active>a:hover,
-.dropdown-menu>.active>a:focus,
-.dropdown-menu>.active>.dropdown-menu>.active>a {
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > .dropdown-menu > .active > a {
     background: none;
     color: #1bbc9b;
 }
@@ -730,8 +723,7 @@ li {
     padding-bottom: 10px;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	Section  Title
@@ -760,8 +752,7 @@ li {
     margin: 0 auto 20px;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	Default Section
@@ -779,8 +770,7 @@ li {
     margin-bottom: 50px;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	MAin BAnner Style One
@@ -796,7 +786,7 @@ li {
     padding: 120px 0px 100px 0px;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     .content-padding {
         padding: 60px 0px 80px 0px;
     }
@@ -855,8 +845,7 @@ li {
     background: #68ece6;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	Features Style One
@@ -872,8 +861,7 @@ li {
     padding-top: 230px;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	SERVICE SECTION
@@ -917,8 +905,7 @@ li {
     line-height: 24px;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	FEATURE Section
@@ -957,8 +944,7 @@ li {
     margin: 0 auto;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	SECTION ABOUT 2
@@ -992,8 +978,7 @@ li {
     font-weight: 600;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	SECTION PARALALX
@@ -1012,8 +997,7 @@ li {
     margin: 20px 0px;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	SERVICE Section
@@ -1021,8 +1005,7 @@ li {
 
 ***/
 
-
-/*** 
+/***
 
 ====================================================================
 	Testimonials Area style
@@ -1073,8 +1056,7 @@ li {
     margin-left: 40px;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	PRICING SECTION
@@ -1111,7 +1093,7 @@ li {
 }
 
 .price-heading {
-    border-bottom: 1px solid#eee;
+    border-bottom: 1px solid #eee;
     padding-bottom: 40px;
 }
 
@@ -1147,8 +1129,7 @@ li {
     background: #4155C5;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	BLOG SECTION
@@ -1188,8 +1169,7 @@ li {
     background: #F8F8F8;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	SECTION OVERLAY
@@ -1216,8 +1196,7 @@ li {
     opacity: .7;
 }
 
-
-/*** 
+/***
 
 ====================================================================
 	Blog News Section
@@ -1225,8 +1204,7 @@ li {
 
 ***/
 
-
-/*** 
+/***
 
 ====================================================================
 	Main Footer
@@ -1248,7 +1226,8 @@ li {
     margin: 25px 0px;
 }
 
-.footer-logo {}
+.footer-logo {
+}
 
 .footer-logo h2 {
     color: #fff;
@@ -1272,7 +1251,6 @@ li {
     margin-bottom: 20px;
     color: #fff;
 }
-
 
 /* footer MNEU */
 
@@ -1301,14 +1279,14 @@ li {
     font-size: 15px;
 }
 
-
 /*
 * ----------------------------------------------------------------------------------------
 * 13.CONTACT CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
 
-#section-contact {}
+#section-contact {
+}
 
 .contact-form {
     margin-top: 20px;
@@ -1379,17 +1357,17 @@ li {
     text-align: center;
 }
 
-
 /*--------------------------------
      HOME -2 
 ------------------------------*/
 
 #section-banner2 {
-    background: url("../img/programming.jpg")fixed center center;
+    background: url("../img/programming.jpg") fixed center center;
     -webkit-background-size: cover;
     background-size: cover;
     position: relative;
 }
+
 
 .banner-content-inner2 {
     width: 90%;
@@ -1417,7 +1395,6 @@ li {
 #banner-slider .carousel-indicators li {
     background: #222;
 }
-
 
 /*======================================================
      navigation 
@@ -1478,7 +1455,7 @@ li {
     outline: 0;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -1488,25 +1465,28 @@ li {
         -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
         transition: background .5s ease-in-out, padding .5s ease-in-out;
     }
+
     .navbar-custom.top-nav-collapse {
         -webkit-box-shadow: 0px 0px 2px #777;
         box-shadow: 0px 0px 2px #777;
         background-color: #EDF4FA;
         box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
     }
+
     .navbar-custom.top-nav-collapse .nav li.active a {
         background-color: transparent;
-        color: #111!important;
+        color: #111 !important;
     }
+
     .navbar-custom.top-nav-collapse .navbar-brand {
         color: #fff;
     }
+
     .navbar-brand {
         padding: 0px;
         margin-top: -10px;
     }
 }
-
 
 /* HEADING INTRO */
 
@@ -1528,7 +1508,8 @@ li {
     display: block;
 }
 
-.service-block-box .service-content-block {}
+.service-block-box .service-content-block {
+}
 
 .service-block-box .service-content-block {
     padding-left: 0px;
@@ -1543,11 +1524,11 @@ li {
 
 .client-img-block img {
     border-radius: 100%;
-    border: 3px solid#eee;
+    border: 3px solid #eee;
 }
 
 .test-block-box .client-desc {
-    border: 1px solid#eee;
+    border: 1px solid #eee;
     padding: 30px 40px;
     margin-left: 30px;
 }
@@ -1561,16 +1542,13 @@ li {
     margin: 10px 0px;
 }
 
-
 /*---------------------------------
      HOME-4
 ----------------------------------*/
 
-
 /*-------------------------------------
 	BANNER SLIDER AREA
 ----------------------------------------*/
-
 
 /*-- Main slide --*/
 
@@ -1656,7 +1634,7 @@ li {
 }
 
 .slider-content.white a.btn-style-one:hover {
-    border-color: #fff!important;
+    border-color: #fff !important;
     background: #fff;
 }
 
@@ -1705,7 +1683,6 @@ li {
     /*    font-weight: 400;*/
     color: #57c9f3;
 }
-
 
 /* Carousel control */
 
@@ -1788,10 +1765,10 @@ li {
     color: #fff;
 }
 
-
 /*-- Animation */
 
-.carousel .item.active .animated1 {}
+.carousel .item.active .animated1 {
+}
 
 .carousel .item.active .animated2 {
     -webkit-animation: slideInLeft .5s ease-in 300ms both;
@@ -1874,7 +1851,6 @@ li {
     color: #666;
 }
 
-
 /*----------------------------
     HOME VIDEO
 -----------------------------*/
@@ -1902,8 +1878,7 @@ li {
     padding-top: 80px;
 }
 
-
-/* -------------------------------  
+/* -------------------------------
      VIDEO BG
 --------------------------------*/
 
@@ -1911,7 +1886,8 @@ li {
     padding-top: 150px;
 }
 
-#section-video-bg .banner-content-inner {}
+#section-video-bg .banner-content-inner {
+}
 
 #section-video-bg .banner-content-inner h1 {
     color: #000;
@@ -1920,7 +1896,6 @@ li {
 #section-video-bg {
     position: relative;
 }
-
 
 /* Video responsive */
 

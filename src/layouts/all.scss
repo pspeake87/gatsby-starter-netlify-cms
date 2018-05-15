@@ -1,0 +1,76 @@
+@import "css/bootstrap.min.css";
+@import "css/style.css";
+
+.navbar-brand img {
+  height: 70px;
+  padding: 10px;
+  display: block;
+}
+
+.tech-logo {
+  width: 120px;
+  height: 120px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.constellation {
+  background-image: linear-gradient(to right, #57c9f3 0%, #68ece6 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+#about-page {
+  p {
+    font-size: 22px;
+  }
+  .background-dark {
+    background-color: #312F2F;
+    color: #fff;
+    h1 {
+      color: #fff;
+    }
+    h3 {
+      color: #fff;
+      font-weight: normal;
+    }
+    h2 {
+      color: #fff;
+    }
+  }
+
+  .background-secondary {
+    background-color: #f9f9fb;
+  }
+  .profile-container {
+    p {
+      font-size: 16px;
+      line-height: 1em;
+    }
+    float: right;
+    margin-right: 50px;
+    .profile-img {
+      border-radius: 100px;
+      height: 200px;
+      width: 200px;
+      background: url("img/linkedinprofile.jpg") 50% 25% no-repeat;
+    }
+  }
+}
+
+#webdesign-page {
+  p {
+    font-size: 22px;
+  }
+  .section-header {
+    color: #fff;
+    h1 {
+      color: #fff;
+    }
+    background: url("img/bg-main.jpg") center center no-repeat;
+  }
+}

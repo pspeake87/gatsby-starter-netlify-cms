@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import favicon from './img/favicon.ico'
-import './all.sass'
+import './all.scss'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -15,6 +15,7 @@ const TemplateWrapper = ({ children }) => (
         name="google-site-verification"
         content="WJP7leNv9TY1mVO8CwZKT9WcKrbSrYIWCw2daBveq2M"
       />
+      <meta name="p:domain_verify" content="26b19b0552a0b6d518f4e8de5693df1b"/>
       <meta name="msvalidate.01" content="4BC90264D5A19209C3797B0679F86CC6" />
       <meta
         name="description"

@@ -21,7 +21,7 @@ const SeoManagment = () => (
         <div className="row">
           <div className="section-heading text-center">
             <h2 className="text-center">
-              Serving Northern California with full service web management
+              
             </h2>
             <br />
             <div className="sec-line" />
