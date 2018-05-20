@@ -31,32 +31,32 @@ export default class Footer extends React.Component {
                   <h3>Services</h3>
                   <ul>
                     <li>
-                      <a className="page-scroll" href="#section-service">
+                      <a className="page-scroll" href="/about">
                         SEO
                       </a>
                     </li>
                     <li>
-                      <a className="page-scroll" href="#section-service">
+                      <a className="page-scroll" href="/about">
                         Custom CMS
                       </a>
                     </li>
                     <li>
-                      <a className="page-scroll" href="#section-service">
+                      <a className="page-scroll" href="/about">
                         Design
                       </a>
                     </li>
                     <li>
-                      <a className="page-scroll" href="#section-service">
+                      <a className="page-scroll" href="/about">
                         API Integration
                       </a>
                     </li>
                     <li>
-                      <a className="page-scroll" href="#section-service">
+                      <a className="page-scroll" href="/about">
                         Analytics
                       </a>
                     </li>
                     <li>
-                      <a className="page-scroll" href="#section-service">
+                      <a className="page-scroll" href="/about">
                         Mobile Friendly
                       </a>
                     </li>

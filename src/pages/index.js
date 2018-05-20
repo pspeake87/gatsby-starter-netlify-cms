@@ -190,7 +190,7 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="row vertical-align">
                 <div className="col-md-6">
-                  <img src={firstImpressions} className="img-responsive" />
+                  <img src={firstImpressions} className="img-responsive" alt="first impressions"/>
                 </div>
                 <div className="col-md-6 paragraph-padding">
                   <p>The first thing everyone does when they come across a new company or service is to google them and check out their website.</p>
