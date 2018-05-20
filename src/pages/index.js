@@ -22,6 +22,9 @@ import Alvin from '../layouts/img/logos/Alvin.png'
 import Boomr from '../layouts/img/logos/Boomr.png'
 import Leroy from '../layouts/img/logos/Leroy.png'
 
+import firstImpressions from '../layouts/img/first-impressions.svg'
+import citySkyline from '../layouts/img/city-skyline.svg'
+
 const encode = data => {
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -64,10 +67,10 @@ export default class IndexPage extends React.Component {
     const { name, email, message, subject } = this.state
 
     return (
-      <div>
+      <div id="landing">
         <section id="section-banner">
           <Particles
-            className="constellation"
+            className="constellation hidden-sm"
             params={{
               particles: {
                 line_linked: {
@@ -90,10 +93,10 @@ export default class IndexPage extends React.Component {
                       Providing quality, affordable software for small businesses and startups.
                     </h4>
                     <a
-                      className="btn btn-white btn-circle"
-                      href="#section-service"
+                      className="btn btn-white"
+                      href="/about"
                     >
-                      Learn more about our services
+                      Learn more
                     </a>
                   </div>
                 </div>
@@ -175,31 +178,74 @@ export default class IndexPage extends React.Component {
             </div>
           </div>
         </section>
+        <section className="section-padding">
+          <div className="container">
+            <div className="row">
+              <div className="section-heading text-center">
+                <h1>
+                  First Impressions Matter
+                </h1>
+                <br />
+                <div className="sec-line" />
+              </div>
+              <div className="row vertical-align">
+                <div className="col-md-6">
+                  <img src={firstImpressions} className="img-responsive" />
+                </div>
+                <div className="col-md-6 paragraph-padding">
+                  <p>The first thing everyone does when they come across a new company or service is to google them and check out their website.</p>
+                  <p><strong>What does your website say about you?</strong></p>
+                  <p>Considering that this is where most of your prospective clients will get their first impressions of your business, does your website reflect your brand identity and operating standards?</p>
+                  <p>Research has shown that it only takes a few seconds for website visitors to decide whether or not they’ll work with you – <strong>make those seconds count.</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="section-padding grey-bg">
+          <div className="container">
+            <div className="row">
+              <div className="section-heading">
+                <h1 className="text-center">
+                  Serving Northern California and beyond with full service web management
+                </h1>
+                <br />
+                <div className="sec-line" />
+              </div>
+              <div className="row row-fluid vertical-align">
+                <div className="col-md-6 col-md-push-6 padding-image">
+                  <img src={citySkyline} className="img-responsive" alt="northern california software" />
+                </div>
+                <div className="col-md-6 col-md-pull-6 paragraph-padding">
+                  <p>From responsive web design, development, and testing, to competitor analysis and user research, we handle it all. Pair your unique identity with our best web design principles and you’ll get a website that’s not only functional but beautiful too.</p>
+                  <p>Speake Software is a Northern California web design company that offers custom website development services. We are more than a custom web design agency, we also handle mobile app development, digital marketing, and API integration.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="section-padding" id="section-service">
           <div className="container">
             <div className="row">
               <div className="section-heading text-center">
                 <h2 className="text-center">
-                  Serving Northern California with full service web management
+                  Our Services Include
                 </h2>
                 <br />
                 <div className="sec-line" />
               </div>
-              <div className="col-md-4 col-sm-4 col-xs-12">
+              <div className="col-md-4 col-xs-12">
                 <div className="service-block">
                   <i className="icon fa fa-search" />
                   <div className="service-content-block">
                     <h5>SEO: Search Engine Optimization</h5>
                     <p>
-                      Maximize exposure to your website by increasing rankings
-                      on search engines. We can optimize your content using
-                      industry best practices to attract and bring more traffic
-                      to your website.
+                      Maximize exposure to your website by increasing rankings on search engines. We can optimize your content using industry best practices to attract and bring more traffic to your website.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 col-sm-4 col-xs-12">
+              <div className="col-md-4 col-xs-12">
                 <div className="service-block">
                   <i className="icon fa fa-cogs" />
                   <div className="service-content-block">
@@ -210,60 +256,63 @@ export default class IndexPage extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 col-sm-4 col-xs-12">
+              <div className="col-md-4 col-xs-12">
                 <div className="service-block">
                   <i className="icon fa fa-paint-brush" />
                   <div className="service-content-block">
                     <h5>Design</h5>
                     <p>
-                      From logos to a full app design, we cover all your design
-                      needs to produce an up-to-date and modern look and feel.
+                      From logos to a full app design, we cover all your design needs to produce an up-to-date and modern look and feel.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="row margin-top-60">
-              <div className="col-md-4 col-sm-4 col-xs-12">
+              <div className="col-md-4 col-xs-12">
                 <div className="service-block">
                   <i className="icon fa fa-database" />
                   <div className="service-content-block">
                     <h5>API Integration</h5>
                     <p>
-                      With third party software, you can elevate the usefulness
-                      of your app for a fraction of the cost. Some examples are:
-                      Payment, Social Media, Text Messaging, and more!
+                      With third party software, you can elevate the usefulness of your app for a fraction of the cost. Some examples are: Payment, Social Media, Text Messaging, and more!
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 col-sm-4 col-xs-12">
+              <div className="col-md-4 col-xs-12">
                 <div className="service-block">
                   <i className="icon fa fa-exclamation-triangle" />
                   <div className="service-content-block">
                     <h5>Analytics</h5>
                     <p>
-                      It is exhausting to keep track of everything that’s going
-                      on in your app or website. We save you time and energy by
-                      using analytic software to monitor and report these things
-                      for you.
+                      It is exhausting to keep track of everything that’s going on in your app or website. We save you time and energy by using analytic software to monitor and report these things for you.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 col-sm-4 col-xs-12">
+              <div className="col-md-4 col-xs-12">
                 <div className="service-block">
                   <i className="icon fa fa-tablet" />
                   <div className="service-content-block">
-                    <h5>Mobile Friendly</h5>
+                    <h5>Responsive Websites</h5>
                     <p>
-                      Websites today need to fit all device sizes. Creating
-                      responsive websites is an absolute must in order to reach
-                      your entire user base.
+                      Websites today need to fit all device sizes. Creating responsive websites is an absolute must in order to reach your entire user base.
                     </p>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="section-padding hidden-xs" id="section-polygon">
+          <div className="container">
+            <div className="row">
+              <h2>Web Development Is Not A DIY Project. </h2>
+                <p>To Get Results You Need To Work With Professionals Like Us!</p>
+              <a className="btn btn-white" href="/contact">
+                Book Your Free Consultation!
+              </a>
             </div>
           </div>
         </section>
@@ -288,7 +337,7 @@ export default class IndexPage extends React.Component {
                 <div className="feature-list">
                   <img
                     src={logo1}
-                    alt="speake-software"
+                    alt="software transparency"
                     className="img-responsive"
                   />
                   <h5>Transparency</h5>
@@ -300,7 +349,7 @@ export default class IndexPage extends React.Component {
                 <div className="feature-list">
                   <img
                     src={logo2}
-                    alt="speake-software"
+                    alt="software reliability"
                     className="img-responsive"
                   />
                   <h5>Reliability</h5>
@@ -314,7 +363,7 @@ export default class IndexPage extends React.Component {
                 <div className="feature-img-block">
                   <img
                     src={logo4}
-                    alt="speake-software"
+                    alt="speake software"
                     className="img-responsive"
                   />
                 </div>
@@ -323,7 +372,7 @@ export default class IndexPage extends React.Component {
                 <div className="feature-list">
                   <img
                     src={logo3}
-                    alt="speake-software"
+                    alt="software affordability"
                     className="img-responsive"
                   />
                   <h5>Affordability</h5>
@@ -335,7 +384,7 @@ export default class IndexPage extends React.Component {
                 <div className="feature-list">
                   <img
                     src={logo5}
-                    alt="speake-software"
+                    alt="quality software"
                     className="img-responsive"
                   />
                   <h5>Quality</h5>
@@ -366,7 +415,7 @@ export default class IndexPage extends React.Component {
                 <div className="client-img-box tech-logo">
                   <img
                     src={reactnative}
-                    alt="speake-software"
+                    alt="react native"
                     className="img-responsive"
                   />
                 </div>
@@ -375,7 +424,7 @@ export default class IndexPage extends React.Component {
                 <div className="client-img-box tech-logo">
                   <img
                     src={rails}
-                    alt="speake-software"
+                    alt="rails"
                     className="img-responsive"
                   />
                 </div>
@@ -384,7 +433,7 @@ export default class IndexPage extends React.Component {
                 <div className="client-img-box tech-logo">
                   <img
                     src={nodejs}
-                    alt="speake-software"
+                    alt="node"
                     className="img-responsive"
                   />
                 </div>
@@ -393,7 +442,7 @@ export default class IndexPage extends React.Component {
                 <div className="client-img-box tech-logo">
                   <img
                     src={react}
-                    alt="speake-software"
+                    alt="react"
                     className="img-responsive"
                   />
                 </div>
@@ -402,7 +451,7 @@ export default class IndexPage extends React.Component {
                 <div className="client-img-box tech-logo">
                   <img
                     src={graphql}
-                    alt="speake-software"
+                    alt="graphql"
                     className="img-responsive"
                   />
                 </div>
@@ -411,7 +460,7 @@ export default class IndexPage extends React.Component {
                 <div className="client-img-box tech-logo">
                   <img
                     src={javascript}
-                    alt="speake-software"
+                    alt="javascript"
                     className="img-responsive"
                   />
                 </div>
@@ -451,7 +500,7 @@ export default class IndexPage extends React.Component {
             <div className="row">
               <div className="col-md-2 col-sm-4 col-xs-12 col-md-offset-1">
                 <div className="client-img-box">
-                  <a href="https://www.trustalvin.com/" target="_blank">
+                  <a href="https://www.trustalvin.com/" target="_blank" rel="nofollow">
                     <img
                       src={Alvin}
                       alt="trust-alvin"
@@ -462,14 +511,14 @@ export default class IndexPage extends React.Component {
               </div>
               <div className="col-md-2 col-sm-4 col-xs-12">
                 <div className="client-img-box">
-                  <a href="https://www.boomr.com/" target="_blank">
+                  <a href="https://www.boomr.com/" target="_blank" rel="nofollow">
                     <img src={Boomr} alt="boomr" className="img-responsive" />
                   </a>
                 </div>
               </div>
               <div className="col-md-2 col-sm-4 col-xs-12">
                 <div className="client-img-box">
-                  <a href="http://leroythompson.tv/" target="_blank">
+                  <a href="http://leroythompson.tv/" target="_blank" rel="nofollow">
                     <img
                       src={Leroy}
                       alt="leroy-thompson"
@@ -481,7 +530,7 @@ export default class IndexPage extends React.Component {
               <div className="col-md-2 col-sm-4 col-xs-12">
                 <div className="client-img-box">
                   <a href="https://ranchr.ag/" target="_blank">
-                    <img src={Ranchr} alt="ranchr" className="img-responsive" />
+                    <img src={Ranchr} alt="ranchr" className="img-responsive"/>
                   </a>
                 </div>
               </div>
@@ -490,6 +539,7 @@ export default class IndexPage extends React.Component {
                   <a
                     href="https://itunes.apple.com/us/app/mood-mindfulness-made-simple/id1248042971?ls=1&mt=8"
                     target="_blank"
+                    rel="nofollow"
                   >
                     <img src={Mood} alt="mood" className="img-responsive" />
                   </a>

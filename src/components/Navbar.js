@@ -24,9 +24,7 @@ export default class MainNavbar extends React.Component {
 
           <Navbar.Collapse>
             <Nav pullRight>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
+              <NavItem href="/">Home</NavItem>
               <NavDropdown
                 eventKey={3}
                 title="Services"
@@ -42,9 +40,6 @@ export default class MainNavbar extends React.Component {
               </NavDropdown>
 
               <NavItem href="/about">About</NavItem>
-
-              {/*<NavItem href="/portfolio">Portfolio</NavItem>*/}
-
               <NavItem href="/contact">Contact</NavItem>
             </Nav>
           </Navbar.Collapse>

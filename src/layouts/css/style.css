@@ -171,6 +171,12 @@ li {
     background: #fff;
 }
 
+.btn-white:hover {
+    color: #fff !important;
+    border-color: #ffffff !important;
+    background: none;
+}
+
 .btn-brand-outline:hover {
     color: #ffffff !important;
     border-color: #57c9f3 !important;

@@ -7,7 +7,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <div id="about-page">
-      <section className="section-padding background-dark">
+      <section className="section-padding background-polygon">
         <div className="container">
           <div className="row">
             <div className="section-heading">
@@ -25,27 +25,31 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <br />
               <div className="sec-line" />
             </div>
-            <div className="profile-container">
-              <div className="profile-img" />
-              <br />
-              <p className="text-center" >Philip Speake</p>
-              <p className="text-center" >Owner/Lead Developer</p>
-              <ul className="list-inline footer-social text-center">
-                <li>
-                  <a href="https://www.linkedin.com/company/speakesoftware/">
-                    <i className="fa fa-linkedin" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/company/speakesoftware/">
-                    <i className="fa fa-facebook" />
-                  </a>
-                </li>
-              </ul>
+            <div className="vertical-align">
+              <div className="paragraph-padding">
+                <p>&#09;We hire some of the top talent from all over the world, but our core team is purposefully locally based.
+                Teamwork and accountability is very important to us and leads to quality results for the client.</p>
+                <p>&#09;Industry best practices are also very important to us. Continous integration, SCRUM, Code quality checks along with testing allows our team to be agile and efficient.</p>
+              </div>
+              <div className="profile-container">
+                <div className="profile-img" />
+                <br />
+                <p className="text-center" >Philip Speake</p>
+                <p className="text-center" >Owner/Lead Developer</p>
+                <ul className="list-inline footer-social text-center">
+                  <li>
+                    <a href="https://www.linkedin.com/company/speakesoftware/">
+                      <i className="fa fa-linkedin" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/speakesoftware/">
+                      <i className="fa fa-facebook" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <p>&#09;We hire some of the top talent from all over the world, but our core team is purposefully locally based.
-            Teamwork and accountability is very important to us and leads to quality results for the client.</p>
-            <p>&#09;Industry best practices are also very important to us. Continous integration, SCRUM, Code quality checks along with testing allows our team to be agile and efficient.</p>
           </div>
         </div>
       </section>
@@ -57,7 +61,16 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               <br />
               <div className="sec-line" />
             </div>
-            <PageContent className="content" content={content} />
+            <h3>Discover</h3>
+            <p>Every project starts with a discovery phase where we discuss your company's goals, value differentiation, competitive landscape, and ideal target market. This is the stage where we find out if we’re the best fit for you.</p>
+            <h3>Design</h3>
+            <p>After gaining insight into your goals, we’ll define the scope of the project and the tools needed. This is where we conduct exhaustive and comprehensive research into your customers and competitors, after which we’ll draw up a plan tailored to your goals and circumstances.</p>
+            <h3>Implement</h3>
+            <p>Up next, we’ll implement the plan/ design and turn them into actual products. We’ll make sure that your mobile app or website is beautiful, scalable, functional, and prioritizes maintainability.</p>
+            <h3>Launch</h3>
+            <p>Finally! Your project is ready! We will manage the rollout of our solution, and help with future edits and updates where necessary.</p>
+            <h3>Market</h3>
+            <p>After your app or site is up and running, if requested, we can help make it stand out through our expert SEO service that targets local searches.</p>
           </div>
         </div>
       </section>

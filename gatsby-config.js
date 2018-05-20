@@ -13,6 +13,12 @@ module.exports = {
         exclude: ['/preview/**', '/do-not-track/me/too/'],
       },
     },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.speakesoftware.co`,
+      },
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
