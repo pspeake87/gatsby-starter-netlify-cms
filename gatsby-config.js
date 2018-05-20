@@ -44,14 +44,14 @@ module.exports = {
         ? { policy: [{ userAgent: '*' }] }
         : {
           policy: [{ userAgent: '*', disallow: ['/'] }],
-          sitemap: null,
-          host: null
+          sitemap: 'https://www.speakesoftware.co/sitemap.xml',
+          host: 'https://www.speakesoftware.co'
         }
     },
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        output: `/some-other-sitemap.xml`,
+        output: `/sitemap.xml`,
         exclude: ["/services/*", `/blog/*`],
         query: `
         {
