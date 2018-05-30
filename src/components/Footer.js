@@ -99,6 +99,21 @@ export default class Footer extends React.Component {
                       <i className="fa fa-facebook" />
                     </a>
                   </li>
+                  <li>
+                    <a href="https://plus.google.com/b/103718194326592729865/">
+                      <i className="fa fa-google-plus" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.pinterest.com/philipspeake/">
+                      <i className="fa fa-pinterest" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/speakesoftware/">
+                      <i className="fa fa-instagram" />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
