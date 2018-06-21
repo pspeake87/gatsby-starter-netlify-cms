@@ -41,7 +41,7 @@ export default class Form extends React.Component {
     const {first_name, email, last_name, phone} = this.state;
 
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} netlify name="consultation-form">
         <input
           type="hidden"
           name="form-name"
