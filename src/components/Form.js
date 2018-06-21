@@ -29,7 +29,7 @@ export default class Form extends React.Component {
             phone: '',
             bot: '',
           });
-          alert('Success! Will be in contact soon!')
+          alert('Success! We will be in contact soon!')
         })
         .catch(error => alert(error))
     }
@@ -41,7 +41,7 @@ export default class Form extends React.Component {
     const {first_name, email, last_name, phone} = this.state;
 
     return (
-      <form onSubmit={this.handleSubmit} netlify name="consultation-form">
+      <form onSubmit={this.handleSubmit} data-netlify="true" name="consultation-form">
         <input
           type="hidden"
           name="form-name"
