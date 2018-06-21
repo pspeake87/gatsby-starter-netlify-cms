@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d844a88e-9aeb-45d6-b153-4f5a4a288c00" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,11 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphql.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/layouts/img/logos/graphql.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file leaf-file-name="javascript.svg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/layouts/img/logos/javascript.svg">
           <provider selected="true" editor-type-id="images" />
@@ -82,7 +77,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="image-03.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/layouts/img/image-03.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="675">
@@ -343,12 +343,12 @@
       <workItem from="1526356392005" duration="21142000" />
       <workItem from="1527653099098" duration="435000" />
       <workItem from="1529536411583" duration="5730000" />
-      <workItem from="1529605363246" duration="5910000" />
+      <workItem from="1529605363246" duration="6345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79858000" />
+    <option name="totallyTimeSpent" value="80293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1611" height="950" extended-state="0" />
@@ -382,9 +382,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/layouts/img/customers@2x.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/layouts/img/editor.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -598,6 +595,9 @@
           <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/img/image-03.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
