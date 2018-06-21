@@ -19,7 +19,7 @@ export default class Form extends React.Component {
       fetch('/', {
         method: 'POST',
         headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-        body: encode({'form-name': 'contact-form', ...this.state}),
+        body: encode({'form-name': 'consultation-form', ...this.state}),
       })
         .then(() => {
           this.setState({
@@ -45,7 +45,7 @@ export default class Form extends React.Component {
         <input
           type="hidden"
           name="form-name"
-          value="contact-form"
+          value="consultation-form"
         />
         <input type="hidden" onChange={this.handleChange}/>
         <div className="form-group">
@@ -56,6 +56,7 @@ export default class Form extends React.Component {
             name="first_name"
             id="first_name"
             onChange={this.handleChange}
+            required
           />
         </div>
         <div className="form-group">
@@ -66,6 +67,7 @@ export default class Form extends React.Component {
             name="last_name"
             id="last_name"
             onChange={this.handleChange}
+            required
           />
         </div>
         <div className="form-group">
@@ -76,6 +78,7 @@ export default class Form extends React.Component {
             name="phone"
             id="phone"
             onChange={this.handleChange}
+            required
           />
         </div>
         <div className="form-group">
@@ -86,6 +89,7 @@ export default class Form extends React.Component {
             name="email"
             id="email"
             onChange={this.handleChange}
+            required
           />
         </div>
         <button
