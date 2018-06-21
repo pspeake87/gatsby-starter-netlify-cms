@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d844a88e-9aeb-45d6-b153-4f5a4a288c00" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layouts/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/cms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/cms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/preview-templates/ContactPagePreview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/css/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/css/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/css/components/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/css/components/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/css/tools/_background.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/css/tools/_background.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-01@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-02@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/img/image-03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-03@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/img/image-03@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-05@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-06@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-07@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/image-08@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/sketch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/img/sketch@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/index.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/contact-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,14 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -118,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Form.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="651">
@@ -227,12 +191,12 @@
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/layouts/js/main.js" />
         <option value="$PROJECT_DIR$/src/pages/contact.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/src/layouts/index.js" />
         <option value="$PROJECT_DIR$/src/components/Navbar.js" />
         <option value="$PROJECT_DIR$/src/layouts/css/components/_icons.scss" />
         <option value="$PROJECT_DIR$/src/components/Form.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
       </list>
     </option>
   </component>
@@ -307,6 +271,21 @@
               <item name="speake-software" type="b2602c69:ProjectViewProjectNode" />
               <item name="speake-software" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="speake-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="speake-software" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="logos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="speake-software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="speake-software" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -364,12 +343,12 @@
       <workItem from="1526356392005" duration="21142000" />
       <workItem from="1527653099098" duration="435000" />
       <workItem from="1529536411583" duration="5730000" />
-      <workItem from="1529605363246" duration="5348000" />
+      <workItem from="1529605363246" duration="5498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79296000" />
+    <option name="totallyTimeSpent" value="79446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="23" width="1611" height="950" extended-state="0" />
@@ -572,30 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Navbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -620,6 +579,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>

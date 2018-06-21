@@ -5,9 +5,9 @@ import Footer from '../components/Footer.js'
 import Navbar from '../components/Navbar'
 
 import Leroy from '../layouts/img/logos/Leroy.png'
-import alvin from '../layouts/img/logos/alvin.png'
-import mood from '../layouts/img/logos/mood.png'
-import ranchr from '../layouts/img/logos/ranchr.png'
+import alvin from '../layouts/img/logos/Alvin.png'
+import mood from '../layouts/img/logos/Mood.png'
+import ranchr from '../layouts/img/logos/Ranchr.png'
 
 import heroIllustration from '../layouts/img/hero-illustration.png'
 import heroIllustration2x from '../layouts/img/hero-illustration@2x.png'
