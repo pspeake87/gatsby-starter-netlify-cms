@@ -1,0 +1,190 @@
+/* -----------------------------------------------------------------------------
+
+# Components - Header
+
+----------------------------------------------------------------------------- */
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.header-main {
+  background: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  nav {
+    display: inline-block;
+    padding: 2 * $space;
+    width: 100%;
+  }
+
+  a:not(.button) {
+    color: $color-text;
+    font-weight: 600;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    opacity: $opacity-m;
+
+    &:hover {
+      color: $color-primary;
+      opacity: 1;
+    }
+
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  ul.inline {
+    display: inline-block;
+    margin: 0;
+
+    li {
+      margin-bottom: 0;
+      padding-right: 2 * $space;
+    }
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  &.dark {
+    a:not(.button) {
+      color: $color-white;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+
+    .nav-toggle:before {
+      color: $color-white;
+    }
+  }
+
+  @include mq("tablet") {
+    position: fixed;
+
+    nav {
+      padding: (0.5 * $space) (0.75 * $space);
+    }
+
+    a:not(.button):hover {
+      color: $color-text;
+    }
+
+    ul.inline {
+      display: none;
+    }
+
+    .nav-toggle {
+      @include transition;
+      cursor: pointer;
+      display: inline-block;
+      float: right;
+      height: 2.5rem;
+      text-align: center;
+      width: 1.5rem;
+
+      &:before {
+        @include material-icons;
+        color: $color-text;
+        content: "menu";
+        line-height: 2.5rem;
+
+        /* Prevent text from icon name to show up before load */
+
+        .preload & {
+          font-size: 0;
+        }
+      }
+    }
+
+    &.fade-in {
+      nav {
+        @include shadow-m;
+        background: rgba($color-text, 0.94);
+      }
+
+      a:not(.button) {
+        color: $color-white;
+
+        &:hover {
+          color: $color-white;
+        }
+      }
+
+      .nav-toggle:before {
+        color: $color-white;
+      }
+    }
+
+    &.active {
+      height: 100%;
+
+      nav {
+        @include shadow-none;
+        @include transition-none;
+        background: $color-text;
+        height: 100%;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      a:not(.button) {
+        color: $color-white;
+
+        &:hover {
+          color: $color-white;
+        }
+      }
+
+      ul.inline {
+        display: block;
+        width: 100%;
+
+        li {
+          @include font-size-lead;
+          margin-bottom: 0.5 * $space;
+          padding: 0;
+          text-align: center;
+          width: 100%;
+
+          a:not(.button) {
+            font-weight: 400;
+            line-height: 3rem;
+          }
+        }
+      }
+
+      .nav-toggle {
+        @include rotate;
+
+        &:before {
+          color: $color-white;
+          content: "close";
+        }
+      }
+
+      .button {
+        @include transition-none;
+        height: 3.5rem;
+        line-height: 3.5rem;
+        margin-top: $space;
+
+        &-secondary {
+          background: rgba($color-white, $opacity-l);
+          color: $color-white;
+
+          &:hover {
+            background: rgba($color-white, $opacity-l);
+          }
+        }
+      }
+    }
+  }
+}

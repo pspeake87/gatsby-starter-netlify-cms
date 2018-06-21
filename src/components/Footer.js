@@ -6,120 +6,47 @@ import { Navbar, Nav } from 'react-bootstrap'
 export default class Footer extends React.Component {
   render() {
     return (
-      <div>
-        <footer id="main-footer">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-4 col-sm-6">
-                <div className="footer-widget footer-desc">
-                  <div className="footer-logo">
-                    <h2>
-                      Speake
-                      <span>Software</span>
-                    </h2>
-                    <h6>& Consulting</h6>
-                  </div>
-                  <p>
-                    We are a custom software development company from Dixon,
-                    California that designs and develops web and mobile apps for
-                    a variety of clients.
-                  </p>
-                </div>
+      <footer className="footer-main bg-image-hero dark overlay-shape-06">
+        <div className="padding">
+          <div className="center margin-bottom max-width-m">
+            <h3>Grow your startup the right way.</h3>
+            <p className="paragraph">Our tools are packed with epic features. So you can focus on your most important
+              work.</p>
+          </div>
+          <div className="center margin-bottom max-width-l">
+            <div className="row margin-bottom min-two-columns">
+              <div className="col-one-fourth">
+                <i className="feature-icons material-icons bg-gradient-pink">format_shapes</i>
+                <h6>Minimal Design</h6>
               </div>
-              <div className="col-md-3 col-sm-6 col-md-offset-1">
-                <div className="footer-widget footer-menu">
-                  <h3>Services</h3>
-                  <ul>
-                    <li>
-                      <a className="page-scroll" href="/about">
-                        SEO
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="/about">
-                        Custom CMS
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="/about">
-                        Design
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="/about">
-                        API Integration
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="/about">
-                        Analytics
-                      </a>
-                    </li>
-                    <li>
-                      <a className="page-scroll" href="/about">
-                        Mobile Friendly
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+              <div className="col-one-fourth">
+                <i className="feature-icons material-icons bg-gradient-cyan">network_check</i>
+                <h6>Rocket Fast</h6>
               </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="footer-widget footer-contact">
-                  <h3>Get in Touch</h3>
-                  <h4 className="margin-botm-20">610 W C St</h4>
-                  <h4 className="margin-botm-20">Dixon, California</h4>
-                  <h4 className="margin-botm-20">405.432.6799</h4>
-                </div>
+              <div className="col-one-fourth">
+                <i className="feature-icons material-icons bg-gradient-green">line_style</i>
+                <h6>Framework</h6>
+              </div>
+              <div className="col-one-fourth">
+                <i className="feature-icons material-icons bg-gradient-indigo">check</i>
+                <h6>HTML5 Valid</h6>
               </div>
             </div>
           </div>
-        </footer>
-        <section id="section-footer-btm">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6 col-sm-4">
-                <h4>
-                  © All Rights Reserved 2018 - Speake Software & Consulting
-                </h4>
+          <div className="card card-content dark margin-bottom max-width-l">
+            <form className="row reduce-spacing">
+              <div className="col-two-thirds middle">
+                <h3>Ready to get started?</h3>
+                <p className="lead">Start your free 15-day trial today.</p>
               </div>
-              <div className="col-md-6 text-right col-sm-8">
-                <ul className="list-inline footer-social">
-                  <li>
-                    <a href="https://twitter.com/speake_software">
-                      <i className="fa fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/company/speakesoftware/">
-                      <i className="fa fa-linkedin" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.facebook.com/speakesoftware2018/">
-                      <i className="fa fa-facebook" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://plus.google.com/b/103718194326592729865/">
-                      <i className="fa fa-google-plus" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.pinterest.com/philipspeake/">
-                      <i className="fa fa-pinterest" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/speakesoftware/">
-                      <i className="fa fa-instagram" />
-                    </a>
-                  </li>
-                </ul>
+              <div className="col-one-third middle">
+                <a href="signup.html" className="button button-primary" role="button">Create An Account</a>
               </div>
-            </div>
+            </form>
           </div>
-        </section>
-      </div>
+        </div>
+        <p className="copyright"><span>Speake Software & Consulting - © 2018, all rights reserved.</span></p>
+      </footer>
     )
   }
 }

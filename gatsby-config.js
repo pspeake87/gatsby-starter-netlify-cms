@@ -52,7 +52,6 @@ module.exports = {
       resolve: `gatsby-plugin-sitemap`,
       options: {
         output: `/sitemap.xml`,
-        exclude: ["/services/*", `/blog/*`],
         query: `
         {
           site {

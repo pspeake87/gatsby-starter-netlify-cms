@@ -5,12 +5,12 @@ import Helmet from 'react-helmet'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import favicon from './img/favicon.ico'
-import './all.scss'
+import './css/main.scss'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <title>Northern California Web Design | Custom Software Development</title>
+      <title>Speake Software | Custom Software Development</title>
       <meta
         name="google-site-verification"
         content="WJP7leNv9TY1mVO8CwZKT9WcKrbSrYIWCw2daBveq2M"

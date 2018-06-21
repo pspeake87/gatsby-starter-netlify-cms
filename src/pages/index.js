@@ -1,29 +1,29 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
-import Particles from 'react-particles-js'
-
-import logo1 from '../layouts/img/Asset-3.svg'
-import logo2 from '../layouts/img/Asset-4.svg'
-import logo3 from '../layouts/img/Asset-5.svg'
-import logo4 from '../layouts/img/Asset-8.svg'
-import logo5 from '../layouts/img/champion.svg'
 
 import reactnative from '../layouts/img/logos/reactnative.svg'
 import rails from '../layouts/img/logos/rails.svg'
 import nodejs from '../layouts/img/logos/nodejs.svg'
 import react from '../layouts/img/logos/react.svg'
 import graphql from '../layouts/img/logos/graphql.svg'
-import javascript from '../layouts/img/logos/javascript.svg'
 
-import Mood from '../layouts/img/logos/Mood.png'
-import Ranchr from '../layouts/img/logos/Ranchr.png'
-import Alvin from '../layouts/img/logos/Alvin.png'
-import Boomr from '../layouts/img/logos/Boomr.png'
-import Leroy from '../layouts/img/logos/Leroy.png'
+import heroIllustration from '../layouts/img/hero-illustration.png'
+import heroIllustration2x from '../layouts/img/hero-illustration@2x.png'
 
-import firstImpressions from '../layouts/img/first-impressions.svg'
-import citySkyline from '../layouts/img/city-skyline.svg'
+import editor from '../layouts/img/editor.png'
+import editor2x from '../layouts/img/editor@2x.png'
+
+import sketch from '../layouts/img/sketch.png'
+import sketch2x from '../layouts/img/sketch@2x.png'
+
+import opalinDashboard from '../layouts/img/opalin-dashboard.png'
+import opalinDashboard2x from '../layouts/img/opalin-dashboard@2x.png'
+
+import trustedCompanyDark from '../layouts/img/trusted-company-dark.png'
+import trustedCompanyDark2x from '../layouts/img/trusted-company-dark@2x.png'
+
+import NotFoundPage from "./404";
 
 const encode = data => {
   return Object.keys(data)
@@ -63,521 +63,149 @@ export default class IndexPage extends React.Component {
 
   render() {
     const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
     const { name, email, message, subject } = this.state
 
     return (
-      <div id="landing">
-        <section id="section-banner">
-          <Particles
-            className="constellation hidden-sm"
-            params={{
-              particles: {
-                line_linked: {
-                  enable: true,
-                  width: 2,
-                },
-              },
-            }}
-          />
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <div className="banner-content content-padding">
-                  <div className="banner-content-inner text-left">
-                    <h1>
-                      Custom Website Design, Development, and SEO Management
-                    </h1>
-                    <br />
-                    <h4>
-                      Providing quality, affordable software for small businesses and startups.
-                    </h4>
-                    <a
-                      className="btn btn-white"
-                      href="/about"
-                    >
-                      Learn more
-                    </a>
-                  </div>
+      <main>
+
+        <section className="bg-image-hero center-tablet dark overlay-shape-03">
+          <div className="full-screen -margin-bottom middle padding padding-top-tablet">
+            <div className="row max-width-l">
+              <div className="col-one-half middle">
+                <div>
+                  <h1 className="hero">Web and Mobile App Development</h1>
+                  <p className="lead">Senior level engineering in Rails and React specializing in startups</p>
+                  <a href="/contact" className="button button-primary space-top" role="button">Book Free Consultation</a>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="banner-content content-padding">
-                  <div className="banner-content-inner text-center">
-                    <h1>Full Service Websites</h1>
-                    <h3>Starting at $499</h3>
-                    <br />
-                    <h4>
-                      Contact us today to learn about our exciting offers to
-                      build and manage a high traffic business website
-                    </h4>
-                    <br />
-                    <div className="contact-box">
-                      <form onSubmit={this.handleSubmit}>
-                        <div className="row">
-                          <input
-                            type="hidden"
-                            name="form-name"
-                            value="contact-form"
-                          />
-                          <input type="hidden" onChange={this.handleChange} />
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <input
-                                className="form-control"
-                                value={name}
-                                type="text"
-                                name="name"
-                                id="name"
-                                placeholder="NAME"
-                                onChange={this.handleChange}
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <input
-                                className="form-control"
-                                value={email}
-                                type="text"
-                                name="email"
-                                id="email"
-                                placeholder="EMAIL"
-                                onChange={this.handleChange}
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-12">
-                            <div className="form-group">
-                              <textarea
-                                className="form-control"
-                                value={message}
-                                name="message"
-                                id="message"
-                                rows="5"
-                                cols="30"
-                                placeholder="MESSAGE"
-                                onChange={this.handleChange}
-                              />
-                            </div>
-                          </div>
-                          <div className="col-md-12 text-center">
-                            <button
-                              type="submit"
-                              className="btn contact-box-submit"
-                            >
-                              Request a Quote
-                            </button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
+              <div className="col-one-half middle">
+                <img src={heroIllustration}
+                     srcSet={`${heroIllustration} 1x, ${heroIllustration2x} 2x`}
+                     alt="Hero Illustration" />
+              </div>
+            </div>
+          </div>
+          <div className="padding">
+            <div className="row margin-bottom max-width-l">
+              <div className="col-one-half middle">
+                <h3>TDD and Continuous Integration</h3>
+                <p className="paragraph">Everything is run through automated tests and code checkers to ensure code quality.</p>
+              </div>
+              <div className="col-one-half">
+                <img className="rounded shadow-l" src={editor}
+                     srcSet={`${editor} 1x, ${editor2x} 2x`} alt="Editor" />
+              </div>
+            </div>
+            <div className="row max-width-l reverse-order">
+              <div className="col-one-half">
+                <img className="rounded shadow-l" src={sketch}
+                     srcSet={`${sketch} 1x, ${sketch2x} 2x`} alt="Sketch" />
+              </div>
+              <div className="col-one-half middle">
+                <h3>Agile Workflow</h3>
+                <p className="paragraph">Keep up to date with the development process and ensure we are hitting our milestones.</p>
               </div>
             </div>
           </div>
         </section>
-        <section className="section-padding">
-          <div className="container">
-            <div className="row">
-              <div className="section-heading text-center">
-                <h1>
-                  First Impressions Matter
-                </h1>
-                <br />
-                <div className="sec-line" />
-              </div>
-              <div className="row vertical-align">
-                <div className="col-md-6">
-                  <img src={firstImpressions} className="img-responsive" alt="first impressions"/>
-                </div>
-                <div className="col-md-6 paragraph-padding">
-                  <p>The first thing everyone does when they come across a new company or service is to google them and check out their website.</p>
-                  <p><strong>What does your website say about you?</strong></p>
-                  <p>Considering that this is where most of your prospective clients will get their first impressions of your business, does your website reflect your brand identity and operating standards?</p>
-                  <p>Research has shown that it only takes a few seconds for website visitors to decide whether or not they’ll work with you – <strong>make those seconds count.</strong></p>
-                </div>
-              </div>
-            </div>
+
+        <section className="bg-gradient-light -margin-bottom-2 overlay padding">
+          <div className="center max-width-m">
+            <h2>Present Your Product</h2>
+            <p className="paragraph">Opalin helps you present your business in a wide variety of ways. Display
+              full-width images, divide content in a single or multiple columns, anything to make your product or
+              service stand out!</p>
+          </div>
+          <div className="margin-top max-width-l">
+            <img className="rounded shadow-l" src={opalinDashboard}
+                 srcSet={`${opalinDashboard} 1x, ${opalinDashboard2x} 2x`}
+                 alt="Opalin Dashboard" />
           </div>
         </section>
-        <section className="section-padding grey-bg">
-          <div className="container">
-            <div className="row">
-              <div className="section-heading">
-                <h1 className="text-center">
-                  Serving Northern California and beyond with full service web management
-                </h1>
-                <br />
-                <div className="sec-line" />
+
+        <section className="bg-gradient-dark center dark padding">
+          <div className="margin-top max-width-l">
+            <div className="margin-bottom max-width-m">
+              <h3>Over 20,000 Paying Customers</h3>
+              <p className="opacity-m paragraph">Thousands of the most successful companies rely on our service.</p>
+            </div>
+            <div className="row min-two-columns">
+              <div className="col-one-fourth">
+                <img src={trustedCompanyDark}
+                     srcSet={`${trustedCompanyDark} 1x, ${trustedCompanyDark2x} 2x`}
+                     alt="Trusted Company" />
               </div>
-              <div className="row row-fluid vertical-align">
-                <div className="col-md-6 col-md-push-6 padding-image">
-                  <img src={citySkyline} className="img-responsive" alt="northern california software" />
-                </div>
-                <div className="col-md-6 col-md-pull-6 paragraph-padding">
-                  <p>From responsive web design, development, and testing, to competitor analysis and user research, we handle it all. Pair your unique identity with our best web design principles and you’ll get a website that’s not only functional but beautiful too.</p>
-                  <p>Speake Software is a Northern California web design company that offers custom website development services. We are more than a custom web design agency, we also handle mobile app development, digital marketing, and API integration.</p>
-                </div>
+              <div className="col-one-fourth">
+                <img src={trustedCompanyDark}
+                     srcSet={`${trustedCompanyDark} 1x, ${trustedCompanyDark2x} 2x`}
+                     alt="Trusted Company" />
+              </div>
+              <div className="col-one-fourth">
+                <img src={trustedCompanyDark}
+                     srcSet={`${trustedCompanyDark} 1x, ${trustedCompanyDark2x} 2x`}
+                     alt="Trusted Company" />
+              </div>
+              <div className="col-one-fourth">
+                <img src={trustedCompanyDark}
+                     srcSet={`${trustedCompanyDark} 1x, ${trustedCompanyDark2x} 2x`}
+                     alt="Trusted Company" />
               </div>
             </div>
+            <img className="margin-top rounded shadow-l" src={trustedCompanyDark}
+                 srcSet={`${trustedCompanyDark} 1x, ${trustedCompanyDark2x} 2x`} alt="Customers" />
           </div>
         </section>
-        <section className="section-padding" id="section-service">
-          <div className="container">
-            <div className="row">
-              <div className="section-heading text-center">
-                <h2 className="text-center">
-                  Our Services Include
-                </h2>
-                <br />
-                <div className="sec-line" />
-              </div>
-              <div className="col-md-4 col-xs-12">
-                <div className="service-block">
-                  <i className="icon fa fa-search" />
-                  <div className="service-content-block">
-                    <h5>SEO: Search Engine Optimization</h5>
-                    <p>
-                      Maximize exposure to your website by increasing rankings on search engines. We can optimize your content using industry best practices to attract and bring more traffic to your website.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 col-xs-12">
-                <div className="service-block">
-                  <i className="icon fa fa-cogs" />
-                  <div className="service-content-block">
-                    <h5>Custom CMS</h5>
-                    <p>
-                      Put the power in your own hands with our custom CMS for changing content directly within the website or app
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 col-xs-12">
-                <div className="service-block">
-                  <i className="icon fa fa-paint-brush" />
-                  <div className="service-content-block">
-                    <h5>Design</h5>
-                    <p>
-                      From logos to a full app design, we cover all your design needs to produce an up-to-date and modern look and feel.
-                    </p>
-                  </div>
-                </div>
+
+        <section className="bg-light center">
+          <div className="row no-gutter">
+            <div className="col-one-half middle padding padding-bottom padding-top">
+              <div className="max-width-m">
+                <p className="paragraph">Danielle Mayer, business owner, says:</p>
+                <h3>"Support is fantastic. Nothing but great results!"</h3>
               </div>
             </div>
-            <div className="row margin-top-60">
-              <div className="col-md-4 col-xs-12">
-                <div className="service-block">
-                  <i className="icon fa fa-database" />
-                  <div className="service-content-block">
-                    <h5>API Integration</h5>
-                    <p>
-                      With third party software, you can elevate the usefulness of your app for a fraction of the cost. Some examples are: Payment, Social Media, Text Messaging, and more!
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 col-xs-12">
-                <div className="service-block">
-                  <i className="icon fa fa-exclamation-triangle" />
-                  <div className="service-content-block">
-                    <h5>Analytics</h5>
-                    <p>
-                      It is exhausting to keep track of everything that’s going on in your app or website. We save you time and energy by using analytic software to monitor and report these things for you.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 col-xs-12">
-                <div className="service-block">
-                  <i className="icon fa fa-tablet" />
-                  <div className="service-content-block">
-                    <h5>Responsive Websites</h5>
-                    <p>
-                      Websites today need to fit all device sizes. Creating responsive websites is an absolute must in order to reach your entire user base.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div className="col-one-half bg-image-03 padding-bottom padding-top"></div>
           </div>
         </section>
-        <section className="section-padding hidden-xs" id="section-polygon">
-          <div className="container">
-            <div className="row">
-              <h2>Web Development Is Not A DIY Project. </h2>
-                <p>To Get Results You Need To Work With Professionals Like Us!</p>
-              <a className="btn btn-white" href="/contact">
-                Book Your Free Consultation!
-              </a>
+
+        <section className="bg-gradient-light padding">
+          <div className="center max-width-l">
+            <h2>5-Minute Setup</h2>
+            <p className="paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+          </div>
+          <div className="row margin-top max-width-l">
+            <div className="col-one-fourth card card-content">
+              <p className="muted">Step 1</p>
+              <h4>Download</h4>
+              <p className="paragraph">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</p>
+            </div>
+            <div className="col-one-fourth card card-content">
+              <p className="muted">Step 2</p>
+              <h4>Customize</h4>
+              <p className="paragraph">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur mollit.</p>
+            </div>
+            <div className="col-one-fourth card card-content">
+              <p className="muted">Step 3</p>
+              <h4>Upload</h4>
+              <p className="paragraph">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            </div>
+            <div className="col-one-fourth card card-content dark">
+              <p className="muted">Step 4</p>
+              <h4>Done!</h4>
+              <p className="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium.</p>
             </div>
           </div>
-        </section>
-        <section className="section-padding grey-bg" id="section-feature">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="section-heading text-center">
-                  <h2 className="text-center">Web Design principles we believe in</h2>
-                  <br />
-                  <div className="sec-line" />
-                  <p>
-                    We find the best customer customer experience is when the
-                    client feels the company is Transparent, Reliable,
-                    Affordable, while providing Quality products
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-4 col-sm-6">
-                <div className="feature-list">
-                  <img
-                    src={logo1}
-                    alt="software transparency"
-                    className="img-responsive"
-                  />
-                  <h5>Transparency</h5>
-                  <p>
-                    We dedicate ourselves to being transparent in all aspects to
-                    earn our customers’ trust and satisfaction.
-                  </p>
-                </div>
-                <div className="feature-list">
-                  <img
-                    src={logo2}
-                    alt="software reliability"
-                    className="img-responsive"
-                  />
-                  <h5>Reliability</h5>
-                  <p>
-                    24 hour response time, meeting deadlines. We work around
-                    your schedule and not ours
-                  </p>
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-4 hidden-sm hidden-xs">
-                <div className="feature-img-block">
-                  <img
-                    src={logo4}
-                    alt="speake software"
-                    className="img-responsive"
-                  />
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-6">
-                <div className="feature-list">
-                  <img
-                    src={logo3}
-                    alt="software affordability"
-                    className="img-responsive"
-                  />
-                  <h5>Affordability</h5>
-                  <p>
-                    We might not be the cheapest option but we work hard with
-                    our clients to find a price point they are comfortable with.
-                  </p>
-                </div>
-                <div className="feature-list">
-                  <img
-                    src={logo5}
-                    alt="quality software"
-                    className="img-responsive"
-                  />
-                  <h5>Quality</h5>
-                  <p>
-                    By using state of the art software and industry best
-                    practices, we will help you stay ahead of your competitors
-                  </p>
-                </div>
-              </div>
-            </div>
+          <div className="center margin-top max-width-l">
+            <span className="muted">If you need any help, make sure to </span><a href="signup.html">book a demo</a><span
+            className="muted">.</span>
           </div>
         </section>
-        <section className="section-padding" id="section-tech">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12 col-xs-12 col-sm-12">
-                <div className="section-padding-heading text-center">
-                  <h2 className="sec-title">
-                    Some technologies we love to use!
-                  </h2>
-                  <br />
-                  <div className="sec-line" />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-2 col-sm-4 col-xs-6">
-                <div className="client-img-box tech-logo">
-                  <img
-                    src={reactnative}
-                    alt="react native"
-                    className="img-responsive"
-                  />
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-6">
-                <div className="client-img-box tech-logo">
-                  <img
-                    src={rails}
-                    alt="rails"
-                    className="img-responsive"
-                  />
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-6">
-                <div className="client-img-box tech-logo">
-                  <img
-                    src={nodejs}
-                    alt="node"
-                    className="img-responsive"
-                  />
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-6">
-                <div className="client-img-box tech-logo">
-                  <img
-                    src={react}
-                    alt="react"
-                    className="img-responsive"
-                  />
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-6">
-                <div className="client-img-box tech-logo">
-                  <img
-                    src={graphql}
-                    alt="graphql"
-                    className="img-responsive"
-                  />
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-6">
-                <div className="client-img-box tech-logo">
-                  <img
-                    src={javascript}
-                    alt="javascript"
-                    className="img-responsive"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="section-padding hidden-xs" id="section-parralax">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6 col-sm-6">
-                <h3>Have an idea you would to talk to use about?</h3>
-                <p>
-                  We offer free 1 hour consultations via video conference or in
-                  person. Validate your idea with experts who know the business
-                </p>
-                <a className="btn btn-brand" href="/contact">
-                  Contact us now
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="section-padding" id="section-client">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12 col-xs-12 col-sm-12">
-                <div className="section-padding-heading text-center">
-                  <h2 className="sec-title">
-                    Check out some of our former clients.
-                  </h2>
-                  <br />
-                  <div className="sec-line" />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-2 col-sm-4 col-xs-12 col-md-offset-1">
-                <div className="client-img-box">
-                  <a href="https://www.trustalvin.com/" target="_blank" rel="nofollow">
-                    <img
-                      src={Alvin}
-                      alt="trust-alvin"
-                      className="img-responsive"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-12">
-                <div className="client-img-box">
-                  <a href="https://www.boomr.com/" target="_blank" rel="nofollow">
-                    <img src={Boomr} alt="boomr" className="img-responsive" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-12">
-                <div className="client-img-box">
-                  <a href="http://leroythompson.tv/" target="_blank" rel="nofollow">
-                    <img
-                      src={Leroy}
-                      alt="leroy-thompson"
-                      className="img-responsive"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-12">
-                <div className="client-img-box">
-                  <a href="https://ranchr.ag/" target="_blank">
-                    <img src={Ranchr} alt="ranchr" className="img-responsive"/>
-                  </a>
-                </div>
-              </div>
-              <div className="col-md-2 col-sm-4 col-xs-12">
-                <div className="client-img-box">
-                  <a
-                    href="https://itunes.apple.com/us/app/mood-mindfulness-made-simple/id1248042971?ls=1&mt=8"
-                    target="_blank"
-                    rel="nofollow"
-                  >
-                    <img src={Mood} alt="mood" className="img-responsive" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+
+      </main>
     )
   }
 }
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 400)
-          id
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
-          }
-        }
-      }
-    }
-  }
-`
