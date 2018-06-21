@@ -1,114 +1,100 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
-export default class Form extends React.Component{
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+};
+
+export default class Form extends React.Component {
 
   constructor(props) {
     super(props)
-    this.state = { bot: '', name: '', email: '', message: '', subject: '' }
+    this.state = {bot: '', first_name: '', email: '', last_name: '', phone: ''}
   }
 
   handleSubmit = e => {
-    e.preventDefault()
+    e.preventDefault();
     if (this.state.bot === '') {
       fetch('/', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ 'form-name': 'contact-form', ...this.state }),
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+        body: encode({'form-name': 'contact-form', ...this.state}),
       })
         .then(() => {
           this.setState({
-            name: '',
+            first_name: '',
             email: '',
-            message: '',
-            subject: '',
+            last_name: '',
+            phone: '',
             bot: '',
-          })
-          alert('Your message was successfully sent!')
+          });
+          alert('Success! Will be in contact soon!')
         })
         .catch(error => alert(error))
     }
   }
 
-  handleChange = e => this.setState({ [e.target.name]: e.target.value })
+  handleChange = e => this.setState({[e.target.name]: e.target.value});
 
   render() {
-    const { name, email, message, subject } = this.state
+    const {first_name, email, last_name, phone} = this.state;
 
     return (
-      <div className="contact-box">
-        <form onSubmit={this.handleSubmit}>
-          <div className="row">
-            <input
-              type="hidden"
-              name="form-name"
-              value="contact-form"
-            />
-            <input type="hidden" onChange={this.handleChange}/>
-            <div className="col-md-12">
-              <div className="form-group">
-                <input
-                  className="form-control"
-                  value={name}
-                  type="text"
-                  name="name"
-                  id="name"
-                  placeholder="NAME"
-                  onChange={this.handleChange}
-                />
-              </div>
-            </div>
-            <div className="col-md-12">
-              <div className="form-group">
-                <input
-                  className="form-control"
-                  value={email}
-                  type="text"
-                  name="email"
-                  id="email"
-                  placeholder="EMAIL"
-                  onChange={this.handleChange}
-                />
-              </div>
-            </div>
-            <div className="col-md-12">
-              <div className="form-group">
-                <input
-                  className="form-control"
-                  value={subject}
-                  type="text"
-                  name="subject"
-                  id="subject"
-                  placeholder="SUBJECT"
-                  onChange={this.handleChange}
-                />
-              </div>
-            </div>
-            <div className="col-md-12">
-              <div className="form-group">
-                <textarea
-                  className="form-control"
-                  value={message}
-                  name="message"
-                  id="message"
-                  rows="5"
-                  cols="30"
-                  placeholder="MESSAGE"
-                  onChange={this.handleChange}
-                />
-              </div>
-            </div>
-            <div className="col-md-12 text-center">
-              <button
-                type="submit"
-                className="btn contact-box-submit"
-              >
-                Contact Us Now
-              </button>
-            </div>
-          </div>
-        </form>
-      </div>
+      <form onSubmit={this.handleSubmit}>
+        <input
+          type="hidden"
+          name="form-name"
+          value="contact-form"
+        />
+        <input type="hidden" onChange={this.handleChange}/>
+        <div className="form-group">
+          <label htmlFor="first_name">First Name:</label>
+          <input
+            value={first_name}
+            type="text"
+            name="first_name"
+            id="first_name"
+            onChange={this.handleChange}
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="last_name">Last Name:</label>
+          <input
+            value={last_name}
+            type="text"
+            name="last_name"
+            id="last_name"
+            onChange={this.handleChange}
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="phone">Phone Number:</label>
+          <input
+            value={phone}
+            type="text"
+            name="phone"
+            id="phone"
+            onChange={this.handleChange}
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="email">Email:</label>
+          <input
+            value={email}
+            type="email"
+            name="email"
+            id="email"
+            onChange={this.handleChange}
+          />
+        </div>
+        <button
+          type="submit"
+          className="button button-primary full-width"
+        >
+          Submit
+        </button>
+      </form>
     )
   }
 }

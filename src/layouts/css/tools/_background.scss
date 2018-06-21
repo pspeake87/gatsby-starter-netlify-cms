@@ -114,7 +114,7 @@
 
 /* Images */
 
-@each $name in "01" "02" "03" "04" "05" "06" "07" "08" {
+@each $name in "03" "04" {
   .bg-image-#{$name}:after {
     background: url(../img/image-#{$name}@2x.jpg);
 

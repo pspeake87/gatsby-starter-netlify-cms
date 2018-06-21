@@ -10,37 +10,16 @@ export default class Footer extends React.Component {
         <div className="padding">
           <div className="center margin-bottom max-width-m">
             <h3>Grow your startup the right way.</h3>
-            <p className="paragraph">Our tools are packed with epic features. So you can focus on your most important
-              work.</p>
-          </div>
-          <div className="center margin-bottom max-width-l">
-            <div className="row margin-bottom min-two-columns">
-              <div className="col-one-fourth">
-                <i className="feature-icons material-icons bg-gradient-pink">format_shapes</i>
-                <h6>Minimal Design</h6>
-              </div>
-              <div className="col-one-fourth">
-                <i className="feature-icons material-icons bg-gradient-cyan">network_check</i>
-                <h6>Rocket Fast</h6>
-              </div>
-              <div className="col-one-fourth">
-                <i className="feature-icons material-icons bg-gradient-green">line_style</i>
-                <h6>Framework</h6>
-              </div>
-              <div className="col-one-fourth">
-                <i className="feature-icons material-icons bg-gradient-indigo">check</i>
-                <h6>HTML5 Valid</h6>
-              </div>
-            </div>
+            <p className="paragraph">It takes hard work and dedication to make a successful startup. We are up for the task!</p>
           </div>
           <div className="card card-content dark margin-bottom max-width-l">
             <form className="row reduce-spacing">
               <div className="col-two-thirds middle">
                 <h3>Ready to get started?</h3>
-                <p className="lead">Start your free 15-day trial today.</p>
+                <p className="lead">Contact us today to get your free consultation</p>
               </div>
               <div className="col-one-third middle">
-                <a href="signup.html" className="button button-primary" role="button">Create An Account</a>
+                <a href="/contact" className="button button-primary" role="button">Setup a Free Consultation</a>
               </div>
             </form>
           </div>

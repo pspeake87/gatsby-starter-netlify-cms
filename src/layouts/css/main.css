@@ -1607,10 +1607,6 @@ p:last-child {
   /* Prevent text from icon name to show up before load */
 }
 
-.preload .button.button-close:before {
-  font-size: 0;
-}
-
 .button.button-close:hover {
   opacity: 1;
 }

@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import favicon from './img/favicon.ico'
 import './css/main.scss'
 
@@ -28,9 +26,8 @@ const TemplateWrapper = ({ children }) => (
       />
       <link rel="shortcut icon" href={favicon} />
     </Helmet>
-    <Navbar />
-    <div>{children()}</div>
-    <Footer />
+    <div className="page page-onboarding preload">{children()}</div>
+    <script src="./js/main.js" />
   </div>
 )
 

@@ -96,12 +96,6 @@
       color: $color-text;
       content: "close";
       line-height: 2rem;
-
-      /* Prevent text from icon name to show up before load */
-
-      .preload & {
-        font-size: 0;
-      }
     }
 
     &:hover {

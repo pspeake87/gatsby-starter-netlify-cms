@@ -15,7 +15,7 @@ export default class MainNavbar extends React.Component {
           </a>
           <div className="nav-toggle" />
           <ul className="inline">
-            <li><a href="index.html" className="active">Contact Us</a></li>
+            <li><a href="/contact" className="active">Contact Us</a></li>
           </ul>
         </nav>
       </header>
